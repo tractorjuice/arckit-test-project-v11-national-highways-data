@@ -22,30 +22,39 @@ wheels/
 
 # Virtual environments
 venv/
-env/
 ENV/
+env/
+.venv
 
-# IDE
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# OS
 .DS_Store
-Thumbs.db
 
-# Codex auth (DO NOT COMMIT TOKENS)
-.codex/auth/
-.codex/*.json
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Project specific
+*.log
+.arckit-debug/
+
+# Vendor proposals (may contain sensitive info)
+# Uncomment if you don't want to commit vendor documents
+# projects/*/vendors/*/proposal.pdf
+# projects/*/vendors/*/proprietary/
+
+# Codex CLI - exclude auth tokens but include prompts
+.codex/*
 !.codex/prompts/
+!.codex/prompts/*.md
+!.codex/README.md
+!.codex/.gitignore
 
-# Temporary files
-*.tmp
-*.bak
-.cache/
-
-# Project-specific
-.arckit/memory/*.md
-!.arckit/memory/.gitkeep
+# direnv
+.envrc.local
