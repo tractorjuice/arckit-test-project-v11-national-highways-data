@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-22T10:30:00Z",
+  "generated": "2026-01-22T13:50:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v11-national-highways-data",
@@ -28,13 +28,13 @@
           "category": "Discovery"
         },
         {
-          "path": "projects/001-national-highways-data-architecture-modernization/analysis-report.md",
-          "title": "Analysis Report",
-          "category": "Discovery"
-        },
-        {
           "path": "projects/001-national-highways-data-architecture-modernization/risk-register.md",
           "title": "Risk Register",
+          "category": "Governance"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/analysis-report.md",
+          "title": "Analysis Report",
           "category": "Governance"
         },
         {
@@ -50,7 +50,7 @@
         {
           "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/current-state-procurement-strategy.md",
           "title": "Wardley Map - Current State & Procurement Strategy",
-          "category": "Architecture"
+          "category": "Strategy"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/tcop-assessment.md",
