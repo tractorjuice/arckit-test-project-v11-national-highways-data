@@ -58,3 +58,5 @@ htmlcov/
 
 # direnv
 .envrc.local
+
+.backup
