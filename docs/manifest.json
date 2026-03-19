@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-13T11:39:11.155Z",
+  "generated": "2026-03-19T09:15:41.766Z",
   "repository": {
     "name": "arckit-test-project-v11-national-highways-data"
   },
@@ -474,6 +474,30 @@
       "status": "beta"
     },
     {
+      "path": "docs/guides/wardley-climate.md",
+      "title": "Climate Assessment Playbook",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/wardley-doctrine.md",
+      "title": "Doctrine Assessment Playbook",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/wardley-gameplay.md",
+      "title": "Gameplay Analysis Playbook",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
+      "path": "docs/guides/wardley-value-chain.md",
+      "title": "Value Chain Decomposition Playbook",
+      "category": "Other",
+      "status": "beta"
+    },
+    {
       "path": "docs/guides/wardley.md",
       "title": "Wardley Mapping Playbook",
       "category": "Architecture",
@@ -614,6 +638,10 @@
     "DLDR": "Architecture",
     "DATA": "Architecture",
     "WARD": "Architecture",
+    "WDOC": "Architecture",
+    "WGAM": "Architecture",
+    "WCLM": "Architecture",
+    "WVCH": "Architecture",
     "DIAG": "Architecture",
     "DFD": "Architecture",
     "ADR": "Architecture",
@@ -709,6 +737,26 @@
           "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WARD-001-v1.0.md",
           "title": "Wardley Map: National Highways Data Architecture - Current State & Procurement Strategy",
           "documentId": "ARC-001-WARD-001-v1.0"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WCLM-001-v1.0.md",
+          "title": "Wardley Climate Assessment: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-WCLM-001-v1.0"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WDOC-v1.0.md",
+          "title": "Wardley Doctrine Assessment: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-WDOC-v1.0"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WGAM-001-v1.0.md",
+          "title": "Wardley Gameplay Analysis: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-WGAM-001-v1.0"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WVCH-001-v1.0.md",
+          "title": "Wardley Value Chain: National Highways Real-Time Journey Information",
+          "documentId": "ARC-001-WVCH-001-v1.0"
         }
       ]
     }
@@ -814,6 +862,46 @@
         "severity": "MEDIUM",
         "createdDate": "2025-11-13",
         "lastModified": "2026-01-26"
+      },
+      "ARC-001-WCLM-001-v1.0": {
+        "type": "WCLM",
+        "project": "001-national-highways-data-architecture-modernization",
+        "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WCLM-001-v1.0.md",
+        "title": "Wardley Climate Assessment: National Highways Data Architecture Modernization",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-19",
+        "lastModified": "2026-03-19"
+      },
+      "ARC-001-WDOC-v1.0": {
+        "type": "WDOC",
+        "project": "001-national-highways-data-architecture-modernization",
+        "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WDOC-v1.0.md",
+        "title": "Wardley Doctrine Assessment: National Highways Data Architecture Modernization",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-19",
+        "lastModified": "2026-03-19"
+      },
+      "ARC-001-WGAM-001-v1.0": {
+        "type": "WGAM",
+        "project": "001-national-highways-data-architecture-modernization",
+        "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WGAM-001-v1.0.md",
+        "title": "Wardley Gameplay Analysis: National Highways Data Architecture Modernization",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-19",
+        "lastModified": "2026-03-19"
+      },
+      "ARC-001-WVCH-001-v1.0": {
+        "type": "WVCH",
+        "project": "001-national-highways-data-architecture-modernization",
+        "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WVCH-001-v1.0.md",
+        "title": "Wardley Value Chain: National Highways Real-Time Journey Information",
+        "status": "DRAFT",
+        "severity": "MEDIUM",
+        "createdDate": "2026-03-19",
+        "lastModified": "2026-03-19"
       }
     },
     "edges": [
@@ -995,6 +1083,116 @@
       {
         "from": "ARC-001-WARD-001-v1.0",
         "to": "ARC-001-DATA",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-PLAN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-WDOC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-WGAM-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-WVCH-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WCLM-001-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-RISK",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WDOC-v1.0",
+        "to": "ARC-001-WVCH-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-WARD-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-WDOC",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-WVCH-001",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WGAM-001-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-000-PRIN",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-001-STKE",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-WVCH-001-v1.0",
+        "to": "ARC-001-WARD-001",
         "type": "references"
       }
     ]

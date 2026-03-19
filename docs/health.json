@@ -1,8 +1,8 @@
 {
-  "generated": "2026-03-13T11:38:46.280Z",
+  "generated": "2026-03-19T09:15:25.448Z",
   "scanned": {
     "projects": 1,
-    "artifacts": 9
+    "artifacts": 13
   },
   "summary": {
     "HIGH": 0,
@@ -22,7 +22,7 @@
   "projects": [
     {
       "id": "001-national-highways-data-architecture-modernization",
-      "artifacts": 9,
+      "artifacts": 13,
       "findings": [
         {
           "severity": "MEDIUM",
