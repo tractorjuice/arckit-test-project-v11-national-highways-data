@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-19T09:15:41.766Z",
+  "generated": "2026-03-23T11:21:52.685Z",
   "repository": {
     "name": "arckit-test-project-v11-national-highways-data"
   },
@@ -757,6 +757,13 @@
           "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WVCH-001-v1.0.md",
           "title": "Wardley Value Chain: National Highways Real-Time Journey Information",
           "documentId": "ARC-001-WVCH-001-v1.0"
+        }
+      ],
+      "research": [
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GCSR-v1.0.md",
+          "title": "Government Code Search Report: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-GCSR-v1.0"
         }
       ]
     }
