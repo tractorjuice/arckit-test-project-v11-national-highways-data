@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-23T11:21:52.685Z",
+  "generated": "2026-03-23T11:42:46.892Z",
   "repository": {
     "name": "arckit-test-project-v11-national-highways-data"
   },
@@ -764,6 +764,16 @@
           "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GCSR-v1.0.md",
           "title": "Government Code Search Report: National Highways Data Architecture Modernization",
           "documentId": "ARC-001-GCSR-v1.0"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GOVR-v1.0.md",
+          "title": "Government Reuse Assessment: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-GOVR-v1.0"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GLND-v1.0.md",
+          "title": "Government Landscape Analysis: Transport and Highways Data",
+          "documentId": "ARC-001-GLND-v1.0"
         }
       ]
     }
