@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-06T13:03:01.612Z",
+  "generated": "2026-04-07T08:59:30.755Z",
   "repository": {
     "name": "arckit-test-project-v11-national-highways-data"
   },
@@ -721,6 +721,7 @@
     "GOVR": "Research",
     "GCSR": "Research",
     "GLND": "Research",
+    "GRNT": "Research",
     "STORY": "Reporting"
   },
   "globalExternal": [
@@ -793,6 +794,12 @@
           "title": "TCoP Assessment",
           "category": "Compliance",
           "documentId": "ARC-001-TCOP-v1.0"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-SOBC-v1.0.md",
+          "title": "Strategic Outline Business Case",
+          "documentId": "ARC-001-SOBC-v1.0",
+          "category": "Planning"
         }
       ],
       "decisions": [
@@ -854,6 +861,33 @@
           "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GOVR-v1.0.md",
           "title": "Government Reuse Assessment: National Highways Data Architecture Modernization",
           "documentId": "ARC-001-GOVR-v1.0"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GRNT-001-v1.0.md",
+          "title": "UK Grants Research: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-GRNT-001-v1.0"
+        }
+      ],
+      "techNotes": [
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/tech-notes/cam-pathfinder-programme.md",
+          "title": "Tech Note: CAM Pathfinder Programme (Connected and Automated Mobility)"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/tech-notes/epsrc-digital-roads-prosperity-partnership.md",
+          "title": "Tech Note: EPSRC Digital Roads Prosperity Partnership"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/tech-notes/government-cyber-action-plan.md",
+          "title": "Tech Note: Government Cyber Action Plan"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/tech-notes/national-data-library.md",
+          "title": "Tech Note: National Data Library (NDL)"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/tech-notes/transit-hub-digital-twin-transport.md",
+          "title": "Tech Note: TransiT Hub -- Digital Twinning for Decarbonising Transport"
         }
       ]
     }
@@ -1079,6 +1113,16 @@
         "severity": "LOW",
         "createdDate": "2026-03-23",
         "lastModified": "2026-03-23"
+      },
+      "ARC-001-GRNT-001-v1.0": {
+        "type": "GRNT",
+        "project": "001-national-highways-data-architecture-modernization",
+        "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GRNT-001-v1.0.md",
+        "title": "UK Grants Research: National Highways Data Architecture Modernization",
+        "status": "DRAFT",
+        "severity": "LOW",
+        "createdDate": "2026-04-07",
+        "lastModified": "2026-04-07"
       }
     },
     "edges": [
@@ -1475,6 +1519,16 @@
       {
         "from": "ARC-001-GOVR-v1.0",
         "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-GRNT-001-v1.0",
+        "to": "ARC-001-REQ",
+        "type": "references"
+      },
+      {
+        "from": "ARC-001-GRNT-001-v1.0",
+        "to": "ARC-001-STKE",
         "type": "references"
       }
     ]
