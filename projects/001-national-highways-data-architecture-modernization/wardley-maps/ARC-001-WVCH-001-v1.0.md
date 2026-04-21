@@ -194,84 +194,84 @@ wardley-beta
 title National Highways Real-Time Journey Information Value Chain
 size [1100, 800]
 
-anchor Real-Time Journey Information [0.95, 0.63]
+anchor "Real-Time Journey Information" [0.95, 0.63]
 
-component Journey Planning API [0.85, 0.63]
-component Control Room Dashboard [0.82, 0.45]
-component Open Data Portal [0.78, 0.70]
-component Incident Management [0.72, 0.50]
-component Domain Data Products [0.68, 0.35]
-component Roadworks Coordination [0.65, 0.40]
-component Emergency Services Integration [0.60, 0.35]
-component Real-Time Data Processing [0.55, 0.60]
-component Sensor Data Ingestion [0.48, 0.55]
-component ANPR Anonymization [0.45, 0.38]
-component Data Quality Validation [0.42, 0.55]
-component Weather Data Integration [0.40, 0.65]
-component Data Catalog [0.38, 0.55]
-component API Gateway [0.35, 0.78]
-component Event Streaming Platform [0.30, 0.72]
-component Identity and Access Management [0.25, 0.82]
-component Monitoring and Observability [0.22, 0.75]
-component Data Storage [0.15, 0.88]
-component Cloud Compute and Networking [0.08, 0.92]
+component "Journey Planning API" [0.85, 0.63]
+component "Control Room Dashboard" [0.82, 0.45]
+component "Open Data Portal" [0.78, 0.70]
+component "Incident Management" [0.72, 0.50]
+component "Domain Data Products" [0.68, 0.35]
+component "Roadworks Coordination" [0.65, 0.40]
+component "Emergency Services Integration" [0.60, 0.35]
+component "Real-Time Data Processing" [0.55, 0.60]
+component "Sensor Data Ingestion" [0.48, 0.55]
+component "ANPR Anonymization" [0.45, 0.38]
+component "Data Quality Validation" [0.42, 0.55]
+component "Weather Data Integration" [0.40, 0.65]
+component "Data Catalog" [0.38, 0.55]
+component "API Gateway" [0.35, 0.78]
+component "Event Streaming Platform" [0.30, 0.72]
+component "Identity and Access Management" [0.25, 0.82]
+component "Monitoring and Observability" [0.22, 0.75]
+component "Data Storage" [0.15, 0.88]
+component "Cloud Compute and Networking" [0.08, 0.92]
 
-Real-Time Journey Information -> Journey Planning API
-Real-Time Journey Information -> Control Room Dashboard
-Real-Time Journey Information -> Open Data Portal
+"Real-Time Journey Information" -> "Journey Planning API"
+"Real-Time Journey Information" -> "Control Room Dashboard"
+"Real-Time Journey Information" -> "Open Data Portal"
 
-Journey Planning API -> Domain Data Products
-Journey Planning API -> API Gateway
+"Journey Planning API" -> "Domain Data Products"
+"Journey Planning API" -> "API Gateway"
 
-Control Room Dashboard -> Incident Management
-Control Room Dashboard -> Domain Data Products
-Control Room Dashboard -> Roadworks Coordination
+"Control Room Dashboard" -> "Incident Management"
+"Control Room Dashboard" -> "Domain Data Products"
+"Control Room Dashboard" -> "Roadworks Coordination"
 
-Open Data Portal -> Journey Planning API
-Open Data Portal -> Domain Data Products
+"Open Data Portal" -> "Journey Planning API"
+"Open Data Portal" -> "Domain Data Products"
 
-Incident Management -> Emergency Services Integration
-Incident Management -> Real-Time Data Processing
-Incident Management -> Event Streaming Platform
+"Incident Management" -> "Emergency Services Integration"
+"Incident Management" -> "Real-Time Data Processing"
+"Incident Management" -> "Event Streaming Platform"
 
-Domain Data Products -> Real-Time Data Processing
-Domain Data Products -> Data Quality Validation
-Domain Data Products -> Data Catalog
+"Domain Data Products" -> "Real-Time Data Processing"
+"Domain Data Products" -> "Data Quality Validation"
+"Domain Data Products" -> "Data Catalog"
 
-Roadworks Coordination -> Domain Data Products
-Roadworks Coordination -> Real-Time Data Processing
+"Roadworks Coordination" -> "Domain Data Products"
+"Roadworks Coordination" -> "Real-Time Data Processing"
 
-Emergency Services Integration -> API Gateway
-Emergency Services Integration -> Identity and Access Management
+"Emergency Services Integration" -> "API Gateway"
+"Emergency Services Integration" -> "Identity and Access Management"
 
-Real-Time Data Processing -> Sensor Data Ingestion
-Real-Time Data Processing -> ANPR Anonymization
-Real-Time Data Processing -> Weather Data Integration
-Real-Time Data Processing -> Event Streaming Platform
+"Real-Time Data Processing" -> "Sensor Data Ingestion"
+"Real-Time Data Processing" -> "ANPR Anonymization"
+"Real-Time Data Processing" -> "Weather Data Integration"
+"Real-Time Data Processing" -> "Event Streaming Platform"
 
-Sensor Data Ingestion -> Event Streaming Platform
-Sensor Data Ingestion -> Data Quality Validation
+"Sensor Data Ingestion" -> "Event Streaming Platform"
+"Sensor Data Ingestion" -> "Data Quality Validation"
 
-ANPR Anonymization -> Identity and Access Management
-ANPR Anonymization -> Data Storage
+"ANPR Anonymization" -> "Identity and Access Management"
+"ANPR Anonymization" -> "Data Storage"
 
-Data Quality Validation -> Event Streaming Platform
+"Data Quality Validation" -> "Event Streaming Platform"
 
-Weather Data Integration -> Event Streaming Platform
+"Weather Data Integration" -> "Event Streaming Platform"
 
-API Gateway -> Identity and Access Management
-API Gateway -> Cloud Compute and Networking
+"API Gateway" -> "Identity and Access Management"
+"API Gateway" -> "Cloud Compute and Networking"
 
-Event Streaming Platform -> Cloud Compute and Networking
+"Event Streaming Platform" -> "Cloud Compute and Networking"
 
-Data Catalog -> Data Storage
+"Data Catalog" -> "Data Storage"
 
-Identity and Access Management -> Cloud Compute and Networking
+"Identity and Access Management" -> "Cloud Compute and Networking"
 
-Monitoring and Observability -> Data Storage
-Monitoring and Observability -> Cloud Compute and Networking
+"Monitoring and Observability" -> "Data Storage"
+"Monitoring and Observability" -> "Cloud Compute and Networking"
 
-Data Storage -> Cloud Compute and Networking
+"Data Storage" -> "Cloud Compute and Networking"
 
 note "Emergency Services requires 99.99% SLA" [0.62, 0.22]
 note "ANPR must anonymize within 24hrs (UK GDPR)" [0.47, 0.25]
