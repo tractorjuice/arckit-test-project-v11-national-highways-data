@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T19:36:43.400Z",
+  "generated": "2026-11-17T10:08:30.453Z",
   "repository": {
     "name": "arckit-test-project-v11-national-highways-data"
   },
@@ -9,535 +9,1754 @@
       "path": "docs/guides/adr.md",
       "title": "Architecture Decision Record (ADR) Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/ai-playbook.md",
-      "title": "AI Playbook Assessment Playbook",
+      "title": "AI Playbook for the UK Government: the 10 principles",
       "category": "Compliance",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/analyze.md",
       "title": "Project Analysis Playbook",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/archify.md",
+      "title": "Interactive Diagram Guide",
+      "category": "Architecture",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/artifact-health.md",
       "title": "Artifact Health Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/atrs.md",
       "title": "Algorithmic Transparency Recording Standard Playbook",
       "category": "Compliance",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/autoresearch.md",
       "title": "Autoresearch Guide: Self-Improving Command Prompts",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/aws-documentation-mcp.md",
+      "title": "AWS documentation MCP servers: Knowledge, Documentation, AWS MCP",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/aws-research.md",
-      "title": "AWS Technology Research Guide",
+      "title": "AWS Well-Architected Framework: the six pillars and AWS research",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/azure-research.md",
       "title": "Azure Technology Research Guide",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/backlog.md",
-      "title": "Product Backlog Quick Guide",
+      "title": "Product backlog and user story template",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/build.md",
+      "title": "Build Harness Guide",
+      "category": "Plugin Operations",
+      "status": "live",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/business-case.md",
       "title": "Strategic Outline Business Case (SOBC) Guide",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/byo-llm.md",
+      "title": "Bring Your Own LLM",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/c4-layout-science.md",
       "title": "C4 Layout Science Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/codes-of-practice.md",
       "title": "UK Government Codes of Practice — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/competitors.md",
+      "title": "Competitor Landscape Guide",
+      "category": "Procurement",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/conformance.md",
       "title": "Architecture Conformance Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/custom-commands.md",
+      "title": "Custom Commands Authoring Guide",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/customize.md",
       "title": "Template Customization Guide",
-      "category": "Getting Started",
-      "status": "live"
+      "category": "Plugin Operations",
+      "status": "live",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/data-mesh-contract.md",
-      "title": "Data Mesh Contract Quick Guide",
+      "title": "Data mesh and data contracts: a data product contract guide",
       "category": "Architecture",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/data-model.md",
-      "title": "Data Model Quick Guide",
+      "title": "Data model: entity relationship diagram (ERD) and logical model",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/data-quality-framework.md",
       "title": "UK Government Data Quality Framework — ArcKit Reference Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/datascout.md",
       "title": "Data Source Discovery Guide",
       "category": "Discovery",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/design-review.md",
       "title": "Design Review Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/devops.md",
       "title": "DevOps Strategy Playbook",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dfd.md",
-      "title": "Data Flow Diagram Guide",
+      "title": "Data flow diagram (DFD): Yourdon-DeMarco symbols and levels",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/diagram.md",
-      "title": "Architecture Diagram Guide",
+      "title": "C4 model architecture diagrams: context, container and component",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dld-review.md",
       "title": "Detailed Design Review Playbook",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dos.md",
       "title": "Digital Outcomes and Specialists Playbook",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dpia.md",
-      "title": "Data Protection Impact Assessment (DPIA) Guide",
+      "title": "Data protection impact assessment (DPIA): when you need one and how",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/enterprise-scale.md",
+      "title": "ArcKit at Enterprise Scale",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/evaluate.md",
       "title": "Vendor Evaluation Playbook",
       "category": "Procurement",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/export-okf.md",
+      "title": "`/arckit:export-okf` - Open Knowledge Format export",
+      "category": "Interoperability",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/finops.md",
-      "title": "FinOps Strategy Playbook",
+      "title": "FinOps framework: a guide to cloud cost management",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/framework.md",
       "title": "Framework Guide",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcloud-clarify.md",
       "title": "G-Cloud Clarification Questions Playbook",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcloud-search.md",
-      "title": "G-Cloud Search Playbook",
+      "title": "G-Cloud 15 (and G-Cloud 14): searching the Digital Marketplace",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcp-research.md",
-      "title": "Google Cloud Technology Research Guide",
+      "title": "Google Cloud research with the Developer Knowledge MCP server",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/glossary.md",
       "title": "Glossary Guide",
       "category": "Reporting",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-code-search.md",
       "title": "Government Code Search Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-landscape.md",
       "title": "Government Code Landscape Analysis Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gov-reuse.md",
       "title": "Government Code Reuse Assessment Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/govs-007-security.md",
       "title": "GovS 007: Security — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/grants.md",
+      "title": "Innovate UK grants and UK government funding: a research guide",
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/graph-report.md",
+      "title": "`/arckit:graph-report` — governance metrics dashboard",
+      "category": "Governance",
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/health.md",
       "title": "Health Check Guide",
       "category": "Governance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/hld-review.md",
       "title": "High-Level Design Review Playbook",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/hooks.md",
       "title": "Hooks Guide",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/impact.md",
       "title": "Impact Analysis",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/import-okf.md",
+      "title": "`/arckit:import-okf` - Open Knowledge Format import",
+      "category": "Interoperability",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/init.md",
       "title": "Init Guide",
       "category": "Getting Started",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/jsp-936.md",
-      "title": "JSP 936 AI Assurance Guide",
+      "title": "JSP 936: Dependable AI in Defence and how to evidence it",
       "category": "Compliance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/knowledge-compounding.md",
       "title": "Knowledge Compounding Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/maturity-model.md",
       "title": "Maturity Model Guide",
       "category": "Governance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mcp-servers.md",
       "title": "ArcKit Plugin Setup Guide",
-      "category": "Integrations",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/microsoft-learn-mcp.md",
+      "title": "Microsoft Learn MCP server: setup, tools and endpoint",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/migration.md",
       "title": "File Migration Playbook",
       "category": "Planning",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mlops.md",
-      "title": "MLOps Strategy Playbook",
+      "title": "MLOps framework: model lifecycle and maturity guide",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mod-secure.md",
-      "title": "MOD Secure by Design Playbook",
+      "title": "MOD Secure by Design: the 7 principles and assessment",
       "category": "Compliance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/national-data-strategy.md",
       "title": "UK National Data Strategy — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/navigator.md",
+      "title": "`/arckit:navigator` — what should I do next?",
+      "category": "Governance",
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/nl-overlay.md",
+      "title": "Netherlands Public Sector Overlay Guide",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
     },
     {
       "path": "docs/guides/operationalize.md",
       "title": "Operational Readiness Playbook",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/pages.md",
       "title": "GitHub Pages Generator Playbook",
       "category": "Reporting",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/pinecone-mcp.md",
       "title": "Pinecone MCP Integration Guide",
-      "category": "Integrations",
-      "status": "experimental"
+      "category": "Plugin Operations",
+      "status": "experimental",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/plan.md",
       "title": "Project Plan Playbook",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/platform-design.md",
       "title": "Platform Strategy Design Guide",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/presentation.md",
       "title": "Presentation Guide",
       "category": "Reporting",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/principles-compliance.md",
       "title": "Principles Compliance Guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/principles.md",
       "title": "Architecture Principles Guide",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/procurement.md",
       "title": "Vendor Procurement Guide",
       "category": "Procurement",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/productivity.md",
       "title": "Architecture Productivity Guide",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/remote-control.md",
       "title": "Govern Architecture from Anywhere: Using Claude Code Remote Control with ArcKit",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/requirements.md",
-      "title": "Requirements Guide",
+      "title": "Non-functional requirements and the business requirements document",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/research.md",
       "title": "Technology Research Guide",
       "category": "Discovery",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/risk-management.md",
       "title": "Risk Management Guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/risk.md",
-      "title": "Risk Register Playbook",
+      "title": "Risk register: template and Orange Book guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/roadmap.md",
       "title": "Architecture Roadmap Playbook",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/score.md",
       "title": "Vendor Scoring",
       "category": "Procurement",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/search.md",
       "title": "Project Search",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/secure.md",
-      "title": "Secure by Design Playbook",
+      "title": "Secure by Design for UK government: the 10 principles and assessment",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/security-hooks.md",
       "title": "Security Hooks Guide",
-      "category": "Compliance",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/service-assessment.md",
-      "title": "GDS Service Assessment Guide",
+      "title": "GDS Service Standard assessment: the 14 points and how to prepare",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/servicenow.md",
-      "title": "ServiceNow Service Design Playbook",
+      "title": "CMDB and ServiceNow service design: a practical guide",
       "category": "Integrations",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/session-memory.md",
       "title": "Session Memory",
-      "category": "Other",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/sobc.md",
-      "title": "Strategic Outline Business Case Playbook",
+      "title": "Business case template: Green Book five case model and SOBC",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/sow.md",
-      "title": "Statement of Work Playbook",
+      "title": "Statement of work (SOW): template and what to include",
       "category": "Procurement",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/stakeholder-analysis.md",
       "title": "Stakeholder Analysis Guide",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/stakeholders.md",
-      "title": "Stakeholder Analysis Playbook",
+      "title": "Stakeholder mapping and analysis: power/interest grid guide",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/start.md",
       "title": "Getting Started with ArcKit",
       "category": "Getting Started",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/story.md",
       "title": "Project Story Guide",
       "category": "Reporting",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/strategy.md",
       "title": "Architecture Strategy Playbook",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/tcop.md",
-      "title": "Technology Code of Practice Playbook",
+      "title": "Technology Code of Practice (TCoP): 13 points and assessment evidence",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/template-builder.md",
       "title": "Template Builder Guide",
-      "category": "Getting Started",
-      "status": "alpha"
+      "category": "Plugin Operations",
+      "status": "alpha",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/tenders.md",
+      "title": "Find a Tender and Contracts Finder: UK public contract award data",
+      "category": "Procurement",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/traceability.md",
-      "title": "Traceability Guide",
+      "title": "Requirements traceability matrix: guide and template",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/trello.md",
       "title": "Trello Export Quick Guide",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/upgrading.md",
       "title": "Upgrading ArcKit",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/wardley-climate.md",
       "title": "Climate Assessment Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-doctrine.md",
       "title": "Doctrine Assessment Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-gameplay.md",
       "title": "Gameplay Analysis Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley-value-chain.md",
       "title": "Value Chain Decomposition Playbook",
-      "category": "Other",
-      "status": "beta"
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley.md",
-      "title": "Wardley Mapping Playbook",
-      "category": "Architecture",
-      "status": "experimental"
+      "title": "Wardley mapping: value chains, evolution and build vs buy",
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/agent-design.md",
+      "title": "AI Agent Design Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-governance.md",
+      "title": "AI Agent Governance Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-integration.md",
+      "title": "AI Agent Integration Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-inventory.md",
+      "title": "AI Agent Inventory Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-maturity.md",
+      "title": "AI Agent Maturity Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-security.md",
+      "title": "AI Agent Security Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-concepts.md",
+      "title": "arc42 Crosscutting Concepts Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-debt.md",
+      "title": "arc42 Technical Debt Register Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-handover.md",
+      "title": "arc42 SDD Handover Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-quality.md",
+      "title": "arc42 Quality Scenarios Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42.md",
+      "title": "arc42 Architecture Description Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/at-barrierefreiheit.md",
+      "title": "Austrian Accessibility (BaFG / WZG) Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-bvergg.md",
+      "title": "Austrian Federal Procurement Act (BVergG 2018) Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-dsgvo.md",
+      "title": "Austrian DSG / DSGVO Compliance Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-nisg.md",
+      "title": "Austrian NIS Act (NISG) Compliance Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/au-ai-assurance.md",
+      "title": "Australian AI Assurance Baseline Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-disp-attestation.md",
+      "title": "Australian DISP Member Self-Attestation Pack Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-dss.md",
+      "title": "Australian DTA Digital Service Standard Conformance Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-e8-posture.md",
+      "title": "Australian Essential Eight Maturity Posture Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ism-controls.md",
+      "title": "Australian ISM Statement of Applicability Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ndb-playbook.md",
+      "title": "Australian Notifiable Data Breach Response Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ot-security.md",
+      "title": "AU OT Security",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-pia.md",
+      "title": "Australian Privacy Impact Assessment Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-pspf.md",
+      "title": "Australian Protective Security Policy Framework Scorecard Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-soci-cirmp.md",
+      "title": "AU SOCI CIRMP",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-aescsf.md",
+      "title": "AU AESCSF Maturity Assessment",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-energy-compliance.md",
+      "title": "AU Energy Compliance Pack",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/ca-aia.md",
+      "title": "Canada Algorithmic Impact Assessment Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-atip.md",
+      "title": "Canada ATIP Reconciliation Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-charter.md",
+      "title": "Canada Charter Rights Design Review Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-cloud-residency.md",
+      "title": "Canada Sovereign Cloud Residency Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-fitaa.md",
+      "title": "Canada FITAA Compliance Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-gc-digital-standards.md",
+      "title": "Canada GC Digital Standards Conformance Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-itsg-33.md",
+      "title": "Canada ITSG-33 Statement of Applicability Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-ocap.md",
+      "title": "Canada First Nations OCAP® Sovereignty Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-ola.md",
+      "title": "Canada Official Languages Act Review Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-pia.md",
+      "title": "Canada Privacy Impact Assessment Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-pspc.md",
+      "title": "Canada Federal Procurement Strategy Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-soia.md",
+      "title": "Canada Foreign Interference and Security of Information Act Handling Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/eu-ai-act.md",
+      "title": "EU AI Act Compliance Assessment Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-cloud-sovereignty.md",
+      "title": "EU Cloud Sovereignty Framework Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-cra.md",
+      "title": "EU Cyber Resilience Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-data-act.md",
+      "title": "EU Data Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-dora.md",
+      "title": "EU DORA Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-dsa.md",
+      "title": "EU Digital Services Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-nis2.md",
+      "title": "EU NIS2 Directive Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-rgpd.md",
+      "title": "EU GDPR Compliance Assessment Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/create.md",
+      "title": "FDE Site Generator Guide",
+      "category": "FDE Site Generator",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "FDE Site Generator"
+    },
+    {
+      "path": "docs/guides/fr-algorithme-public.md",
+      "title": "French Public Algorithm Transparency Notice Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-anssi-carto.md",
+      "title": "ANSSI IS Cartography Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-anssi.md",
+      "title": "ANSSI Security Posture Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-code-reuse.md",
+      "title": "French Public Code Reuse Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-dinum.md",
+      "title": "DINUM Digital Standards Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-dr.md",
+      "title": "Diffusion Restreinte (DR) Handling Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-ebios.md",
+      "title": "EBIOS Risk Manager Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-irn.md",
+      "title": "IRN — Indice de Résilience Numérique Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-marche-public.md",
+      "title": "French Public Procurement Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-pssi.md",
+      "title": "PSSI (Information System Security Policy) Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-rgpd.md",
+      "title": "French GDPR / CNIL Compliance Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-secnumcloud.md",
+      "title": "SecNumCloud Qualification Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/nl-bio.md",
+      "title": "BIO2 Conformance Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-cloud.md",
+      "title": "Rijksbreed Cloudbeleid Compliance Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-exit.md",
+      "title": "Cloud Exit Plan (Clause 3.2) Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-gemma.md",
+      "title": "GEMMA Alignment Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-nora.md",
+      "title": "NORA Conformance Assessment Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-tbb.md",
+      "title": "Te Beschermen Belangen (TBB) Determination Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/agile-governance.md",
+      "title": "O-AA Agile Governance Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agile-security.md",
+      "title": "O-AA Agile Security Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agile-strategy.md",
+      "title": "O-AA Agile Strategy Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/oaa-adm-lite.md",
+      "title": "O-AA ADM Lite Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/product-architecture.md",
+      "title": "O-AA Product Architecture Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/repo-audit.md",
+      "title": "Codebase Audit Guide",
+      "category": "Repository Plugin",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Repository Plugin"
+    },
+    {
+      "path": "docs/guides/repo-docs.md",
+      "title": "Repository Documentation Wiki Guide",
+      "category": "Repository Plugin",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Repository Plugin"
+    },
+    {
+      "path": "docs/guides/adm-preliminary.md",
+      "title": "TOGAF ADM Preliminary Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/application-inventory.md",
+      "title": "Application Inventory Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/application-rationalization.md",
+      "title": "Application Rationalization Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-board.md",
+      "title": "Architecture Board Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-change.md",
+      "title": "Architecture Change Request Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-repository.md",
+      "title": "Architecture Repository Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/business-capability-map.md",
+      "title": "Business Capability Map Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/gap-analysis.md",
+      "title": "TOGAF Gap Analysis Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/transition-architecture.md",
+      "title": "Transition Architecture Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ai-autonomy-tier.md",
+      "title": "UAE AI Autonomy Tier Posture Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ai-charter.md",
+      "title": "UAE Charter for AI Compliance Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-classification.md",
+      "title": "UAE Smart Data Classification Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-cloud-residency.md",
+      "title": "UAE Sovereign Cloud Residency Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-data-sharing.md",
+      "title": "UAE Data Sharing Agreement Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-digital-records.md",
+      "title": "UAE Digital Records Plan Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ias.md",
+      "title": "UAE Information Assurance Standard (IAS) Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-pdpl.md",
+      "title": "UAE PDPL Compliance Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-priorities-alignment.md",
+      "title": "UAE National Priorities Alignment Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-procurement.md",
+      "title": "UAE Federal Procurement Strategy Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-uaepass.md",
+      "title": "UAE Pass Integration Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-zero-bureaucracy.md",
+      "title": "UAE Zero Bureaucracy & Code for Government Services Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-consumer-duty.md",
+      "title": "Consumer Duty Annual Board Report (`/arckit:uk-fs-consumer-duty`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-ctp-dependency.md",
+      "title": "Critical Third Party Dependency Assessment (`/arckit:uk-fs-ctp-dependency`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-safeguarding.md",
+      "title": "EMI / PI Safeguarding Assessment (`/arckit:uk-fs-safeguarding`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-sca-rts.md",
+      "title": "SCA-RTS Exemption Design (`/arckit:uk-fs-sca-rts`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/declaration.md",
+      "title": "G-Cloud Supplier Declaration Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/gcloud-competitors.md",
+      "title": "G-Cloud Competitor Benchmark Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/lot-questions.md",
+      "title": "G-Cloud Lot Questions Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/pricing.md",
+      "title": "G-Cloud Pricing Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/review.md",
+      "title": "G-Cloud Submission Review Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot1a.md",
+      "title": "G-Cloud Lot 1a Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot1b.md",
+      "title": "G-Cloud Lot 1b Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot2a.md",
+      "title": "G-Cloud Lot 2a Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot2b.md",
+      "title": "G-Cloud Lot 2b Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot3.md",
+      "title": "G-Cloud Lot 3 Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/security.md",
+      "title": "G-Cloud Security Assertions Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/service-design.md",
+      "title": "G-Cloud Service Design Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/social-value.md",
+      "title": "G-Cloud Social Value Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/submission-pack.md",
+      "title": "G-Cloud Submission Pack Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/supplier-profile.md",
+      "title": "G-Cloud Supplier Profile Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/legacy-assessment.md",
+      "title": "Legacy IT assessment",
+      "category": "UK Legacy IT Assessment Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Legacy IT Assessment Overlay"
+    },
+    {
+      "path": "docs/guides/uk-mdr-classification.md",
+      "title": "UK + EU MDR SaMD / AIaMD Classification Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dcb0129.md",
+      "title": "NHS DCB0129 Manufacturer Clinical Safety Case Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dcb0160.md",
+      "title": "NHS DCB0160 Deployer Clinical Safety Case Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dtac.md",
+      "title": "NHS DTAC Assessment Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/us-ai-impact.md",
+      "title": "US AI Impact Assessment (OMB M-25-21 / M-25-22)",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-ai-rmf.md",
+      "title": "US NIST AI RMF Assessment",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fedramp-readiness.md",
+      "title": "US FedRAMP Readiness Self-Assessment",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fedramp-ssp.md",
+      "title": "US FedRAMP System Security Plan",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fisma-categorization.md",
+      "title": "US FIPS 199 System Categorization",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-icam.md",
+      "title": "US ICAM Architecture",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-nist-800-53.md",
+      "title": "US NIST SP 800-53 Rev 5 Tailored Control Set",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-privacy-pia.md",
+      "title": "US Privacy Impact Assessment (E-Gov §208)",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-sbom-eo-14028.md",
+      "title": "US EO 14028 Secure-Software Self-Attestation + SBOM",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-zero-trust.md",
+      "title": "US CISA ZTMM v2.0 Maturity Posture",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
     }
   ],
   "roleGuides": [
@@ -650,19 +1869,62 @@
       "commandCount": 5
     }
   ],
+  "guideSectionOrder": [
+    "Core Workflows",
+    "Plugin and Extension Operations",
+    "Overlay Packs",
+    "Community Guides",
+    "Other / Uncategorised"
+  ],
+  "guideCategoryOrder": [
+    "Getting Started",
+    "Discovery",
+    "Planning",
+    "Architecture",
+    "Wardley Mapping",
+    "Governance",
+    "Compliance",
+    "Operations",
+    "Procurement",
+    "Interoperability",
+    "Integrations",
+    "Reporting",
+    "Plugin Operations",
+    "AI Agent Architecture Overlay",
+    "FDE Site Generator",
+    "Repository Plugin",
+    "TOGAF ADM Overlay",
+    "Open Agile Architecture Overlay",
+    "arc42 Overlay",
+    "Australian Federal / Energy Overlay",
+    "Community overlays - Austria",
+    "Canada Federal Overlay",
+    "Community overlays - EU",
+    "Community overlays - France",
+    "Community overlays - Netherlands",
+    "UAE Federal Overlay",
+    "UK G-Cloud Supplier Overlay",
+    "UK Finance Payments Overlay",
+    "UK NHS Clinical Safety Overlay",
+    "USA Federal Civilian Overlay",
+    "Community",
+    "Other"
+  ],
   "global": [
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
       "title": "Architecture Principles",
       "category": "Architecture",
       "documentId": "ARC-000-PRIN-v1.0",
+      "extension": ".md",
       "isDefault": true
     },
     {
       "path": "projects/000-global/ARC-000-PRIN-v2.0.md",
       "title": "Architecture Principles",
       "category": "Architecture",
-      "documentId": "ARC-000-PRIN-v2.0"
+      "documentId": "ARC-000-PRIN-v2.0",
+      "extension": ".md"
     }
   ],
   "typeCategories": {
@@ -670,6 +1932,8 @@
     "STKE": "Discovery",
     "RSCH": "Discovery",
     "DSCT": "Discovery",
+    "TNDR": "Discovery",
+    "CMPT": "Discovery",
     "SOBC": "Planning",
     "PLAN": "Planning",
     "ROAD": "Planning",
@@ -688,13 +1952,42 @@
     "DFD": "Architecture",
     "ADR": "Architecture",
     "PLAT": "Architecture",
+    "ADMP": "Architecture",
+    "BPCM": "Architecture",
+    "APP": "Architecture",
+    "APPR": "Architecture",
+    "GAPA": "Governance",
+    "TRANS": "Planning",
+    "BORD": "Governance",
+    "ACHG": "Governance",
+    "REPO": "Architecture",
+    "AAGI": "Architecture",
+    "AAGR": "Architecture",
+    "AAOV": "Governance",
+    "AAIN": "Architecture",
+    "AASE": "Governance",
+    "AAMT": "Governance",
+    "OASTR": "Planning",
+    "OAPR": "Architecture",
+    "OAAL": "Architecture",
+    "OASEC": "Governance",
+    "OAGOV": "Governance",
+    "ARC42": "Architecture",
+    "QUAL": "Architecture",
+    "CONC": "Architecture",
+    "DEBT": "Architecture",
+    "SDDH": "Planning",
     "RISK": "Governance",
     "TRAC": "Governance",
     "PRIN-COMP": "Governance",
     "CONF": "Governance",
     "PRES": "Reporting",
+    "DECK": "Reporting",
     "ANAL": "Governance",
     "GAPS": "Governance",
+    "CDAU": "Governance",
+    "GLOS": "Governance",
+    "FWRK": "Governance",
     "TCOP": "Compliance",
     "SECD": "Compliance",
     "SECD-MOD": "Compliance",
@@ -702,6 +1995,7 @@
     "ATRS": "Compliance",
     "DPIA": "Compliance",
     "JSP936": "Compliance",
+    "LEGACY": "Compliance",
     "SVCASS": "Compliance",
     "SNOW": "Operations",
     "DEVOPS": "Operations",
@@ -713,6 +2007,17 @@
     "DOS": "Procurement",
     "GCLD": "Procurement",
     "GCLC": "Procurement",
+    "SUPP": "Procurement",
+    "SVCD": "Procurement",
+    "SDD": "Procurement",
+    "DECL": "Procurement",
+    "PRIC": "Procurement",
+    "SECA": "Procurement",
+    "GCMP": "Procurement",
+    "GCRV": "Procurement",
+    "SOCV": "Procurement",
+    "LOTQ": "Procurement",
+    "RATE": "Procurement",
     "DMC": "Procurement",
     "VEND": "Procurement",
     "AWRS": "Research",
@@ -730,6 +2035,8 @@
     "CRA": "Compliance",
     "DSA": "Compliance",
     "DATAACT": "Compliance",
+    "EUCSF": "Compliance",
+    "IRN": "Governance",
     "CNIL": "Compliance",
     "SECNUM": "Compliance",
     "MARPUB": "Procurement",
@@ -740,7 +2047,70 @@
     "DR": "Compliance",
     "ALGO": "Compliance",
     "PSSI": "Compliance",
-    "REUSE": "Procurement"
+    "REUSE": "Procurement",
+    "ATBFR": "Compliance",
+    "ATDSG": "Compliance",
+    "ATNISG": "Compliance",
+    "BVERGG": "Procurement",
+    "PDPL": "Compliance",
+    "IAS": "Compliance",
+    "CRES": "Architecture",
+    "CLAS": "Governance",
+    "UPASS": "Architecture",
+    "ZBUR": "Governance",
+    "DREC": "Governance",
+    "DSHR": "Governance",
+    "NPRA": "Governance",
+    "AICH": "Compliance",
+    "AUTI": "Architecture",
+    "FPRO": "Procurement",
+    "FITAA": "Compliance",
+    "PIA": "Compliance",
+    "ATIP": "Compliance",
+    "AIA": "Compliance",
+    "CHRT": "Governance",
+    "ITSG": "Architecture",
+    "SOIA": "Compliance",
+    "CACR": "Architecture",
+    "DIGSTD": "Governance",
+    "OLA": "Compliance",
+    "PROC": "Procurement",
+    "OCAP": "Governance",
+    "FIPS199": "Compliance",
+    "NIST": "Architecture",
+    "FRSSP": "Compliance",
+    "FRRR": "Compliance",
+    "ZTA": "Architecture",
+    "ICAM": "Architecture",
+    "AIRMF": "Compliance",
+    "AIIA": "Compliance",
+    "USPIA": "Compliance",
+    "SBOM": "Compliance",
+    "AUE8": "Compliance",
+    "AUISM": "Compliance",
+    "AUPIA": "Compliance",
+    "AUNDB": "Compliance",
+    "AUOT": "Compliance",
+    "AUSOCI": "Compliance",
+    "AUAESCSF": "Compliance",
+    "AUENERGY": "Compliance",
+    "AUDSS": "Governance",
+    "AUPSPF": "Governance",
+    "AUAIA": "Compliance",
+    "AUDISP": "Compliance",
+    "RBCLOUD": "Compliance",
+    "TBB": "Compliance",
+    "BIO2": "Compliance",
+    "NLEXIT": "Governance",
+    "NORA": "Governance",
+    "GEMMA": "Architecture",
+    "FSSCA": "Compliance",
+    "FSSAFE": "Compliance",
+    "FSCD": "Compliance",
+    "FSCTP": "Compliance",
+    "NHSDTAC": "Compliance",
+    "NHSMDR": "Compliance",
+    "MMOD": "Governance"
   },
   "globalExternal": [
     {
@@ -763,133 +2133,78 @@
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-ANAL-v1.0.md",
           "title": "Analysis Report",
           "category": "Governance",
-          "documentId": "ARC-001-ANAL-v1.0"
+          "documentId": "ARC-001-ANAL-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-DATA-v1.0.md",
           "title": "Data Model",
           "category": "Architecture",
-          "documentId": "ARC-001-DATA-v1.0"
+          "documentId": "ARC-001-DATA-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-PLAN-v1.0.md",
           "title": "Project Plan",
           "category": "Planning",
-          "documentId": "ARC-001-PLAN-v1.0"
+          "documentId": "ARC-001-PLAN-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-REQ-v1.0.md",
           "title": "Requirements",
           "category": "Discovery",
-          "documentId": "ARC-001-REQ-v1.0"
+          "documentId": "ARC-001-REQ-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-REQ-v2.0.md",
           "title": "Requirements",
           "category": "Discovery",
-          "documentId": "ARC-001-REQ-v2.0"
+          "documentId": "ARC-001-REQ-v2.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-RGPD-v1.0.md",
           "title": "GDPR Compliance Assessment",
           "category": "Compliance",
-          "documentId": "ARC-001-RGPD-v1.0"
+          "documentId": "ARC-001-RGPD-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-RISK-v1.0.md",
           "title": "Risk Register",
           "category": "Governance",
-          "documentId": "ARC-001-RISK-v1.0"
+          "documentId": "ARC-001-RISK-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-SECD-v1.0.md",
           "title": "Secure by Design",
           "category": "Compliance",
-          "documentId": "ARC-001-SECD-v1.0"
+          "documentId": "ARC-001-SECD-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-SOBC-v1.0.md",
           "title": "Strategic Outline Business Case",
           "category": "Planning",
-          "documentId": "ARC-001-SOBC-v1.0"
+          "documentId": "ARC-001-SOBC-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-STKE-v1.0.md",
           "title": "Stakeholder Analysis",
           "category": "Discovery",
-          "documentId": "ARC-001-STKE-v1.0"
+          "documentId": "ARC-001-STKE-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-national-highways-data-architecture-modernization/ARC-001-TCOP-v1.0.md",
           "title": "TCoP Assessment",
           "category": "Compliance",
-          "documentId": "ARC-001-TCOP-v1.0"
-        }
-      ],
-      "decisions": [
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/decisions/ARC-001-ADR-001-v1.0.md",
-          "title": "Architecture Decision Record: Adopt Cloud-Native Platform on Azure UK Regions for Data Architecture",
-          "documentId": "ARC-001-ADR-001-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/decisions/ARC-001-ADR-002-v1.0.md",
-          "title": "Architecture Decision Record: Adopt Data Mesh Architecture with Federated Governance",
-          "documentId": "ARC-001-ADR-002-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/decisions/ARC-001-ADR-003-v1.0.md",
-          "title": "ADR-003: Adopt Event Streaming Platform for Real-Time IoT Data Ingestion",
-          "documentId": "ARC-001-ADR-003-v1.0"
-        }
-      ],
-      "wardleyMaps": [
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WARD-001-v1.0.md",
-          "title": "Wardley Map: National Highways Data Architecture - Current State & Procurement Strategy",
-          "documentId": "ARC-001-WARD-001-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WCLM-001-v1.0.md",
-          "title": "Wardley Climate Assessment: National Highways Data Architecture Modernization",
-          "documentId": "ARC-001-WCLM-001-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WDOC-v1.0.md",
-          "title": "Wardley Doctrine Assessment: National Highways Data Architecture Modernization",
-          "documentId": "ARC-001-WDOC-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WGAM-001-v1.0.md",
-          "title": "Wardley Gameplay Analysis: National Highways Data Architecture Modernization",
-          "documentId": "ARC-001-WGAM-001-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WVCH-001-v1.0.md",
-          "title": "Wardley Value Chain: National Highways Real-Time Journey Information",
-          "documentId": "ARC-001-WVCH-001-v1.0"
-        }
-      ],
-      "research": [
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GCSR-v1.0.md",
-          "title": "Government Code Search Report: National Highways Data Architecture Modernization",
-          "documentId": "ARC-001-GCSR-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GLND-v1.0.md",
-          "title": "Government Landscape Analysis: Transport and Highways Data",
-          "documentId": "ARC-001-GLND-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GOVR-v1.0.md",
-          "title": "Government Reuse Assessment: National Highways Data Architecture Modernization",
-          "documentId": "ARC-001-GOVR-v1.0"
-        },
-        {
-          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GRNT-001-v1.0.md",
-          "title": "UK Grants Research: National Highways Data Architecture Modernization",
-          "documentId": "ARC-001-GRNT-001-v1.0"
+          "documentId": "ARC-001-TCOP-v1.0",
+          "extension": ".md"
         }
       ],
       "techNotes": [
@@ -913,6 +2228,84 @@
           "path": "projects/001-national-highways-data-architecture-modernization/tech-notes/transit-hub-digital-twin-transport.md",
           "title": "Tech Note: TransiT Hub -- Digital Twinning for Decarbonising Transport"
         }
+      ],
+      "decisions": [
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/decisions/ARC-001-ADR-001-v1.0.md",
+          "title": "Architecture Decision Record: Adopt Cloud-Native Platform on Azure UK Regions for Data Architecture",
+          "documentId": "ARC-001-ADR-001-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/decisions/ARC-001-ADR-002-v1.0.md",
+          "title": "Architecture Decision Record: Adopt Data Mesh Architecture with Federated Governance",
+          "documentId": "ARC-001-ADR-002-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/decisions/ARC-001-ADR-003-v1.0.md",
+          "title": "ADR-003: Adopt Event Streaming Platform for Real-Time IoT Data Ingestion",
+          "documentId": "ARC-001-ADR-003-v1.0",
+          "extension": ".md"
+        }
+      ],
+      "wardleyMaps": [
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WARD-001-v1.0.md",
+          "title": "Wardley Map: National Highways Data Architecture - Current State & Procurement Strategy",
+          "documentId": "ARC-001-WARD-001-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WCLM-001-v1.0.md",
+          "title": "Wardley Climate Assessment: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-WCLM-001-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WDOC-v1.0.md",
+          "title": "Wardley Doctrine Assessment: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-WDOC-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WGAM-001-v1.0.md",
+          "title": "Wardley Gameplay Analysis: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-WGAM-001-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/wardley-maps/ARC-001-WVCH-001-v1.0.md",
+          "title": "Wardley Value Chain: National Highways Real-Time Journey Information",
+          "documentId": "ARC-001-WVCH-001-v1.0",
+          "extension": ".md"
+        }
+      ],
+      "research": [
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GCSR-v1.0.md",
+          "title": "Government Code Search Report: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-GCSR-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GLND-v1.0.md",
+          "title": "Government Landscape Analysis: Transport and Highways Data",
+          "documentId": "ARC-001-GLND-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GOVR-v1.0.md",
+          "title": "Government Reuse Assessment: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-GOVR-v1.0",
+          "extension": ".md"
+        },
+        {
+          "path": "projects/001-national-highways-data-architecture-modernization/research/ARC-001-GRNT-001-v1.0.md",
+          "title": "UK Grants Research: National Highways Data Architecture Modernization",
+          "documentId": "ARC-001-GRNT-001-v1.0",
+          "extension": ".md"
+        }
       ]
     }
   ],
@@ -926,7 +2319,35 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Chief Data & Technology Officer, National Highways",
+        "classification": "OFFICIAL-SENSITIVE",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-NH-PRIN-v1.1",
+          "Document Type": "Enterprise Architecture Principles",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL-SENSITIVE",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Annual",
+          "Next Review Date": "2027-01-26",
+          "Owner": "Chief Data & Technology Officer, National Highways",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "All Technology Teams, Architecture Review Board, Project Delivery Teams"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": true,
+          "ageDays": 295
+        }
       },
       "ARC-000-PRIN-v2.0": {
         "type": "PRIN",
@@ -936,7 +2357,35 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-04-06"
+        "lastModified": "2026-04-06",
+        "version": "2.0",
+        "owner": "Chief Data & Technology Officer, National Highways",
+        "classification": "OFFICIAL-SENSITIVE",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-000-PRIN-v2.0",
+          "Document Type": "Enterprise Architecture Principles",
+          "Project": "National Highways Data Architecture Modernization (Project 000 - Global)",
+          "Classification": "OFFICIAL-SENSITIVE",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-04-06",
+          "Review Cycle": "Annual",
+          "Next Review Date": "2027-04-06",
+          "Owner": "Chief Data & Technology Officer, National Highways",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "All Technology Teams, Architecture Review Board, Project Delivery Teams"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": true,
+          "ageDays": 225
+        }
       },
       "ARC-001-ANAL-v1.0": {
         "type": "ANAL",
@@ -946,7 +2395,146 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Enterprise Architect, National Highways",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-ANLZ-v1.1",
+          "Document Type": "Architecture Governance Analysis Report",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "On-Demand",
+          "Next Review Date": "After critical issues resolved",
+          "Owner": "Enterprise Architect, National Highways",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Review Board, Steering Committee",
+          "Requirements Ownership": "Responsible",
+          "Requirements Approval": "Accountable",
+          "Requirements Review": "Consulted",
+          "Requirements Communication": "Informed",
+          "Risk Ownership": "N/A",
+          "Data Domain Ownership": "Responsible",
+          "Data Stewardship": "Consulted",
+          "Technical Custodians": "Informed",
+          "Benefits Realization": "N/A",
+          "Delivery Management": "Accountable",
+          "Security Assurance": "Accountable",
+          "Financial Control": "Accountable",
+          "Change Management": "Responsible",
+          "Strategic Case": "Why government intervention needed, why now",
+          "Economic Case": "Options analysis, benefits, value for money",
+          "Commercial Case": "Procurement strategy, contract model",
+          "Financial Case": "Budget, affordability, accounting treatment",
+          "Management Case": "Delivery plan, governance, benefits realization",
+          "1. Define User Needs": "Understand users and their needs",
+          "2. Make Things Accessible": "Meet accessibility standards",
+          "3. Be Open and Use Open Source": "Publish code openly, use open standards",
+          "4. Make Use of Open Standards": "Use open standards for data and APIs",
+          "5. Use Cloud First": "Public cloud for new services",
+          "6. Make Things Secure": "Protect against cyber threats",
+          "7. Make Privacy Integral": "Embed privacy by design",
+          "8. Share, Reuse and Collaborate": "Avoid duplication",
+          "9. Integrate and Adapt Technology": "Interoperable systems",
+          "10. Make Better Use of Data": "Data-driven decisions",
+          "11. Define Your Purchasing Strategy": "Procurement approach",
+          "12. Meet the Service Standard": "GDS Service Standard compliance",
+          "13. Operate a Reliable Service": "Service management",
+          "DPIA (Data Protection Impact Assessment)": "⚠️ Partial",
+          "EqIA (Equality Impact Assessment)": "❌ Missing",
+          "Human Rights Assessment": "❌ Missing",
+          "Human-in-the-Loop": "⚠️ Implied",
+          "Bias Testing": "❌ Missing",
+          "Explainability": "❌ Missing",
+          "ATRS Publication": "❌ Missing",
+          "Authentication": "NFR-SEC-001 (MFA for humans, service-to-service auth)",
+          "Encryption": "NFR-SEC-002 (AES-256 at rest, TLS 1.3 in transit)",
+          "Penetration Testing": "NFR-C-003 (annual)",
+          "Data Residency": "NFR-SEC-004 (UK regions only, no cross-border)",
+          "Security Monitoring": "NFR-SEC-005 (SIEM, 7-year logs)",
+          "Threat Modeling": "❌ Missing",
+          "Vulnerability Management": "❌ Missing",
+          "Incident Response": "❌ Missing",
+          "Secrets Management": "Implied (Principle #19)",
+          "UK GDPR": "BR-005, NFR-C-001, DR-003, DR-004",
+          "GDS Service Standard": "BR-006, NFR-C-002",
+          "WCAG 2.2 AA Accessibility": "NFR-C-002",
+          "Automated Testing": "NFR-C-003 (80-90% coverage)",
+          "TCoP Compliance": "❌ Missing",
+          "AI Playbook": "❌ Missing",
+          "ATRS": "❌ Missing",
+          "Cyber Essentials Plus": "❌ Missing"
+        },
+        "reqIds": [
+          "NFR-SEC-013",
+          "NFR-P-003",
+          "NFR-OPS-001",
+          "FR-004",
+          "NFR-A-002",
+          "NFR-C-004",
+          "NFR-API-001",
+          "NFR-SUST-001",
+          "NFR-SEC-014",
+          "BR-002",
+          "NFR-P-001",
+          "NFR-P-002",
+          "FR-001",
+          "NFR-S-001",
+          "NFR-S-002",
+          "DR-001",
+          "NFR-A-001",
+          "NFR-A-003",
+          "NFR-A-004",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-005",
+          "BR-003",
+          "FR-002",
+          "INT-002",
+          "INT-001",
+          "INT-003",
+          "INT-004",
+          "NFR-O-001",
+          "NFR-O-002",
+          "NFR-O-003",
+          "FR-006",
+          "DR-005",
+          "NFR-D-001",
+          "NFR-D-002",
+          "NFR-SEC-004",
+          "NFR-C-001",
+          "DR-003",
+          "DR-004",
+          "INT-005",
+          "NFR-C-002",
+          "BR-006",
+          "NFR-C-003",
+          "BR-004",
+          "BR-005",
+          "BR-001",
+          "FR-003",
+          "BR-007",
+          "DR-002",
+          "NFR-D-006",
+          "NFR-AI-001",
+          "NFR-AI-002",
+          "NFR-AI-003",
+          "NFR-OPS-002"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-DATA-v1.0": {
         "type": "DATA",
@@ -956,7 +2544,59 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Chief Data & Technology Officer, National Highways",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-DATA-v1.1",
+          "Document Type": "Data Model",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-02-26",
+          "Owner": "Chief Data & Technology Officer, National Highways",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Data Domain Owners, Architecture Team",
+          "Right to be Informed": "Privacy notices published on website, CCTV warning signs",
+          "Right of Access (SAR)": "Subject Access Request process: 30-day response, provide copy of personal data",
+          "Right to Rectification": "Incident report corrections via data steward",
+          "Right to Erasure": "**NOT applicable for ANPR (automated 24h deletion)**, **NOT applicable for CCTV during 31-day retention** (legitimate interest), Legal hold overrides",
+          "Right to Restrict Processing": "Not applicable (public task exemption)",
+          "Right to Data Portability": "Not applicable (public task exemption)",
+          "Right to Object": "Not applicable (public task exemption, signage provides notice)",
+          "PUBLIC": "E-002 (aggregated), E-008, E-009, E-010, E-011, E-012, E-014, E-015",
+          "OFFICIAL": "E-001, E-002 (real-time), E-003, E-004, E-005, E-013 (summary)",
+          "OFFICIAL-SENSITIVE": "E-006 (ANPR), E-007 (CCTV), E-013 (detailed specs)"
+        },
+        "reqIds": [
+          "DR-001",
+          "DR-005",
+          "DR-003",
+          "DR-004",
+          "DR-002",
+          "NFR-SEC-005",
+          "FR-004",
+          "FR-005",
+          "INT-004",
+          "NFR-C-002",
+          "NFR-C-001",
+          "NFR-C-005",
+          "NFR-A-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-PLAN-v1.0": {
         "type": "PLAN",
@@ -966,7 +2606,54 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-PLAN-v1.1",
+          "Document Type": "Project Plan",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-02-26",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Steering Committee, Executive Board",
+          "Discovery Assessment": "Week 12",
+          "SOBC Approved": "Week 8",
+          "HLD Review Complete": "Week 28",
+          "Alpha Assessment": "Week 32",
+          "DLD Review Complete": "Week 40",
+          "Beta Assessment": "Week 80",
+          "Production Launch": "Week 96",
+          "Hypercare Complete": "Week 100",
+          "Discovery": "12 weeks",
+          "Alpha": "20 weeks",
+          "Beta": "48 weeks",
+          "Live": "4 weeks",
+          "TOTAL": "84 weeks (delivery)",
+          "Large (This Project)": "**12 weeks**",
+          "R-002": "No SOBC",
+          "R-001": "Ministerial pressure",
+          "R-005": "Cloud cost overruns",
+          "R-008": "Legacy migration data loss",
+          "R-012": "Operational disruption"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-REQ-v1.0": {
         "type": "REQ",
@@ -976,7 +2663,84 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-REQ-v1.1",
+          "Document Type": "Business and Technical Requirements",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-02-26",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Team, Executive Sponsors"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "BR-007",
+          "FR-001",
+          "FR-002",
+          "FR-003",
+          "FR-004",
+          "FR-005",
+          "FR-006",
+          "FR-007",
+          "FR-008",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-P-003",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-A-004",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-S-003",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-C-003",
+          "NFR-C-004",
+          "NFR-C-005",
+          "NFR-O-001",
+          "NFR-O-002",
+          "NFR-O-003",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "INT-005",
+          "DR-001",
+          "DR-002",
+          "DR-003",
+          "DR-004",
+          "DR-005"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-REQ-v2.0": {
         "type": "REQ",
@@ -986,7 +2750,96 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-04-06"
+        "lastModified": "2026-04-06",
+        "version": "2.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-REQ-v2.0",
+          "Document Type": "Business and Technical Requirements",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-04-06",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-05-06",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Team, Executive Sponsors"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "BR-007",
+          "BR-008",
+          "BR-009",
+          "BR-010",
+          "FR-001",
+          "FR-002",
+          "FR-003",
+          "FR-004",
+          "FR-005",
+          "FR-006",
+          "FR-007",
+          "FR-008",
+          "FR-009",
+          "FR-011",
+          "FR-010",
+          "FR-012",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-P-003",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-A-004",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-S-003",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-C-003",
+          "NFR-C-004",
+          "NFR-C-005",
+          "NFR-C-006",
+          "NFR-O-001",
+          "NFR-O-002",
+          "NFR-O-003",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "INT-005",
+          "INT-006",
+          "INT-007",
+          "DR-001",
+          "DR-002",
+          "DR-003",
+          "DR-004",
+          "DR-005",
+          "DR-006",
+          "DR-007"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 225
+        }
       },
       "ARC-001-RGPD-v1.0": {
         "type": "RGPD",
@@ -996,7 +2849,60 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-04-19",
-        "lastModified": "2026-04-19"
+        "lastModified": "2026-04-19",
+        "version": "1.0",
+        "owner": "Data Protection Officer (SD-8)",
+        "classification": "OFFICIAL-SENSITIVE",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-RGPD-v1.0",
+          "Document Type": "GDPR Compliance Assessment (EU 2016/679)",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Scope": "Proposed sharing of road network information with EU/EEA recipients (DATEX II and discretionary datasets)",
+          "Classification": "OFFICIAL-SENSITIVE",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-04-19",
+          "Last Modified": "2026-04-19",
+          "Review Cycle": "Annual",
+          "Next Review Date": "2027-04-19",
+          "Owner": "Data Protection Officer (SD-8)",
+          "Reviewed By": "PENDING (DPO, CISO, Legal Counsel)",
+          "Approved By": "PENDING (DPO, SIRO)",
+          "Distribution": "Data Protection Officer, CISO, Legal Counsel, Open Data Lead, EU Liaison",
+          "Lead Supervisory Authority (EU)": "Not applicable — National Highways has no EU establishment. Each EU recipient's national DPA has jurisdiction over the processing in its territory. (UK: ICO remains UK-side regulator under UK GDPR)",
+          "UK Regulator (outbound transfer side)": "Information Commissioner's Office (ICO)",
+          "DPO": "Designated — SD-8 (per stakeholder register), ICO-registered",
+          "Data Controller": "Determines purposes and means of processing",
+          "Data Processor": "Processes on behalf of a controller",
+          "Joint Controller": "Jointly determines purposes and means with another entity",
+          "Sub-processor": "Engaged by a processor",
+          "Data minimisation": "Only aggregated/non-personal data is in the EU-share scope. Raw ANPR and CCTV excluded by design",
+          "Purpose limitation": "DSA with each EU recipient must bind them to declared purposes (traffic management, road safety statistics, EU ITS Directive compliance) — **contractual gap until DSAs signed**",
+          "Storage limitation": "ANPR 24h / CCTV 31d retention in source system; EU recipients' retention governed by their RoPA — require contractual minimum standard",
+          "Pseudonymisation": "ANPR plates SHA-256 hashed with salt; hash deleted at 24h. Re-identification risk if salt compromised — addressed by hardware security module (HSM) per NFR-SEC-004",
+          "Privacy-friendly defaults": "Public API default is aggregated/anonymised; personal-data endpoints require authentication + purpose declaration",
+          "Data protection integrated in design": "Architecture Principle #12 (Data Minimization), #11 (Data Sovereignty); data model enforces PII classification",
+          "Right of access (SAR)": "15",
+          "Right to rectification": "16",
+          "Right to erasure": "17",
+          "Right to restriction": "18",
+          "Right to portability": "20",
+          "Right to object": "21",
+          "Rights re: automated decisions": "22",
+          "RoPA extended to cover EU-sharing processing activity": "☐ **GAP — action required**",
+          "EU sharing of aggregated datasets": "☐ **No — required**"
+        },
+        "reqIds": [
+          "NFR-SEC-004"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": true,
+          "ageDays": 212
+        }
       },
       "ARC-001-RISK-v1.0": {
         "type": "RISK",
@@ -1006,7 +2912,72 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-RISK-v1.1",
+          "Document Type": "Risk Register (HM Treasury Orange Book Framework)",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Monthly (Critical/High), Quarterly (Medium/Low)",
+          "Next Review Date": "2026-02-26",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Risk Management Lead": "Enterprise Risk Manager",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Board, Steering Committee, Risk Owners, SIRO",
+          "CRITICAL (20-25)": "Weekly",
+          "HIGH (13-19)": "Monthly",
+          "MEDIUM (6-12)": "Quarterly",
+          "LOW (1-5)": "Quarterly",
+          "TOTAL": "20 risks",
+          "TREAT (Mitigate)": "15 risks",
+          "TRANSFER (Insure/Contract)": "3 risks",
+          "TOLERATE (Accept)": "1 risk",
+          "TERMINATE (Avoid)": "1 risk",
+          "Programme Director": "Accountable for delivery",
+          "CFO": "Accountable for budget",
+          "CISO": "Accountable for security",
+          "COO": "Accountable for operations",
+          "CDTO (Executive Sponsor)": "Accountable for architecture",
+          "DPO": "Accountable for GDPR",
+          "Enterprise Architect": "Responsible for architecture",
+          "HR Director": "Accountable for people",
+          "STRATEGIC": "Medium (12)",
+          "OPERATIONAL": "Low (6)",
+          "FINANCIAL": "Medium (12)",
+          "COMPLIANCE": "Very Low (3)",
+          "REPUTATIONAL": "Low (6)",
+          "TECHNOLOGY": "Medium (12)",
+          "DfT Permanent Secretary": "Accountable as Accounting Officer"
+        },
+        "reqIds": [
+          "BR-006",
+          "NFR-C-002",
+          "INT-001",
+          "INT-005",
+          "NFR-C-005",
+          "NFR-S-001",
+          "BR-005",
+          "NFR-C-001",
+          "DR-003",
+          "DR-005",
+          "NFR-SEC-005"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-SECD-v1.0": {
         "type": "SECD",
@@ -1016,7 +2987,59 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "CISO, National Highways",
+        "classification": "OFFICIAL-SENSITIVE",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-SECD-v1.1",
+          "Document Type": "UK Government Secure by Design Assessment (NCSC CAF)",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Department": "Department for Transport / National Highways",
+          "Classification": "OFFICIAL-SENSITIVE",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-26",
+          "Owner": "CISO, National Highways",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING (SIRO Approval Required)",
+          "Distribution": "Programme Team, Security Team, SIRO, NCSC (if required)",
+          "A: Managing Security Risk": "A1: Governance",
+          "B: Protecting Against Cyber Attack": "B1: Service Protection Policies",
+          "C: Detecting Cyber Security Events": "C1: Security Monitoring",
+          "D: Minimising Impact of Incidents": "D1: Response and Recovery Planning",
+          "TOTAL": "**10**"
+        },
+        "reqIds": [
+          "NFR-SEC-009",
+          "NFR-SEC-001",
+          "NFR-SEC-012",
+          "NFR-SEC-011",
+          "NFR-SEC-004",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "DR-003",
+          "DR-004",
+          "NFR-SEC-013",
+          "NFR-SEC-014",
+          "BR-009",
+          "NFR-INF-001",
+          "NFR-SEC-015",
+          "NFR-MON-003",
+          "NFR-A-002",
+          "NFR-A-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-SOBC-v1.0": {
         "type": "SOBC",
@@ -1026,7 +3049,305 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-04-07",
-        "lastModified": "2026-04-07"
+        "lastModified": "2026-04-07",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-SOBC-v1.0",
+          "Document Type": "Strategic Outline Business Case (SOBC)",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-04-07",
+          "Last Modified": "2026-04-07",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-05-07",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Board, DfT Investment Committee, HM Treasury, NAO",
+          "Green Book Compliance": "HM Treasury Green Book (2022) -- 5-Case Model",
+          "Senior Responsible Owner (SRO)": "Chief Data & Technology Officer",
+          "Programme Director": "Director of Data & Analytics",
+          "Chief Financial Officer": "CFO, National Highways",
+          "DfT Sponsor": "DfT Permanent Secretary",
+          "HM Treasury": "Treasury Spending Team",
+          "Organisation Type": "Government-Owned Company (GovCo) under Companies Act 2006",
+          "Parent Department": "Department for Transport (DfT)",
+          "Accounting Officer": "Chief Executive, National Highways",
+          "Network": "4,500 miles strategic road network (motorways and major A-roads)",
+          "Asset Value": "£157.4 billion",
+          "Economic Contribution": "£410 billion GVA from SRN-reliant sectors",
+          "Daily Usage": "4 million customers, 45 million journeys",
+          "Staff": "c. 6,800 employees",
+          "Annual Budget (2025-26)": "£4.842 billion total investment",
+          "Regulatory Oversight": "Office of Rail and Road (ORR) -- statutory monitor",
+          "Funding Period": "RIS3 planning period (2026-2031); interim 1-year settlement (2025-26)",
+          "Digital Roads Strategy (2021)": "Direct delivery vehicle -- data platform enables digital-first road design, build, and operation",
+          "RIS3 (2026-2031)": "Supports £27B+ investment through data-driven renewals, operations, and customer services",
+          "SRN Initial Report 2025-2030": "Addresses forecast 27% traffic growth through data-enabled capacity optimisation",
+          "Interim Period Delivery Plan 2025-26": "Aligns with £578M business and digital services allocation; enables ORR monitorable commitments",
+          "Government's No.1 Mission: Economic Growth": "£410B GVA from SRN-reliant sectors depends on reliable, data-driven infrastructure",
+          "Government AI Opportunities Action Plan": "Open data API enables AI-powered traffic forecasting and route optimisation",
+          "National Data Library (DSIT)": "Road network data as a high-value public sector dataset",
+          "Government Cyber Action Plan": "CNI security for OFFICIAL-SENSITIVE data handling",
+          "GDS Service Standard": "Mandatory compliance for public-facing digital services",
+          "Technology Code of Practice": "13-point compliance framework for government technology decisions",
+          "Net Zero Strategy": "Data platform enables decarbonisation tracking and environmental monitoring",
+          "Connected & Autonomous Vehicles (CAV)": "Data mesh prepares platform for V2X data exchange",
+          "IO-1": "Deliver open data access to strategic road network information",
+          "IO-2": "Maintain operational continuity during transformation",
+          "IO-3": "Achieve measurable operational cost reduction",
+          "IO-4": "Ensure lawful and secure handling of personal data",
+          "IO-5": "Meet government digital standards",
+          "IO-6": "Establish domain-owned data products with clear SLAs",
+          "IO-7": "Build sustainable internal capability",
+          "SO-1: Efficiency": "Reduce operational costs through legacy decommissioning and automation",
+          "SO-2: Effectiveness": "Improve incident response and journey reliability through real-time data",
+          "SO-3: Economy": "Deliver value for money through competitive cloud procurement via G-Cloud",
+          "SO-4: Equity": "Ensure open data access for all road users and third-party developers",
+          "R-001": "Ministerial delivery pressure creates scope/quality trade-offs",
+          "R-002": "No SOBC business case blocks procurement",
+          "R-005": "Cloud cost overruns (40% increase, £28M to £39M)",
+          "R-006": "UK GDPR non-compliance for ANPR/CCTV data",
+          "R-009": "Security breach of OFFICIAL-SENSITIVE CNI data",
+          "R-012": "Operational disruption during legacy cutover",
+          "Speed vs. Rigour": "Minister (SD-1) vs. CISO (SD-4)",
+          "Cost vs. Capability": "CFO (SD-5) vs. CDTO (SD-3)",
+          "Centralisation vs. Federation": "Executives vs. Data Mesh",
+          "Open vs. Secure": "GDS (SD-9) vs. CISO (SD-4)",
+          "C-1: Budget Envelope": "£45M programme budget within RIS3/interim settlement",
+          "C-2: Azure UK Regions": "ADR-001 mandates Azure UK South + UK West for OFFICIAL-SENSITIVE",
+          "C-3: GovCo Status": "National Highways is GovCo, not SME",
+          "C-4: Electoral Cycle": "Visible benefits required within 18 months",
+          "C-5: ORR Monitoring": "Statutory performance reporting obligations",
+          "C-6: Smart Motorway Cancellation": "No new smart motorway schemes (Interim Delivery Plan)",
+          "D-1: DfT Budget Confirmation": "£45M within RIS3/interim settlement",
+          "D-2: ICO DPIA Approval": "Approval for ANPR/CCTV data processing",
+          "D-3: GDS Assessment": "Alpha assessment pass",
+          "D-4: NCSC Accreditation": "OFFICIAL-SENSITIVE cloud hosting approval",
+          "D-5: G-Cloud Availability": "Azure services on G-Cloud framework",
+          "D-6: Grant Funding Applications": "RIS3 Designated Funds, NDL, Cyber Plan",
+          "D-7: Staff Availability": "120 staff released for training",
+          "CSF-1": "Zero public safety incidents caused by system failures or data quality issues during migration",
+          "CSF-2": "Ministerial confidence in delivery within 18 months",
+          "CSF-3": "NAO-validated value for money",
+          "CSF-4": "ICO-approved DPIA for ANPR/CCTV data processing",
+          "CSF-5": "99.95% platform availability maintained throughout migration",
+          "CSF-6": "Open data API live within 12 months",
+          "CSF-7": "5 domain data products operational with published SLAs",
+          "CSF-8": "120 staff upskilled with 80+ certifications",
+          "Scope": "Option 2 + digital twin + AI/ML + LA integration + environmental monitoring",
+          "Technology": "MODERATE",
+          "Data Architecture": "Extended data mesh with 8+ domains including environmental, freight, safety",
+          "Public API": "Option 2 API + digital twin visualisation + AI-powered predictions",
+          "Data Products": "8+ domains including environmental, freight, NMU, iRAP safety",
+          "Staff Impact": "200+ staff trained; specialist AI/ML and digital twin teams",
+          "3-Year Cost (ROM)": "**£72M** (Option 2 £45M + digital twin £15M + AI/ML £7M + LA integration £5M)",
+          "Escalation Risk": "Oracle licence costs rising 5-8% annually; additional £4M over 3 years",
+          "Key Limitation": "Technical debt carried forward; Oracle licences still required on cloud",
+          "Phased Delivery": "Phase 1: Open data API (12 months); Phase 2: OFFICIAL-SENSITIVE (18 months)",
+          "Total": "**60**",
+          "Delivery Risk": "Scope too large for 24-month delivery; exceeds approved budget",
+          "Strategic Fit": "25%",
+          "Benefits Delivery": "25%",
+          "Affordability": "20%",
+          "Deliverability": "15%",
+          "Risk": "15%",
+          "Weighted Score": "100%",
+          "Rank": "| 4th",
+          "B-1: Oracle licence elimination": "G-3",
+          "B-2: Operational efficiency gains": "G-3",
+          "B-3: Reduced incident response time": "G-2",
+          "B-4: Staff retention improvement": "G-7",
+          "B-5: Third-party API value": "G-1",
+          "Quantifiable Benefits Total": "| **£15.5M/yr**",
+          "B-6: Journey time reliability": "G-1",
+          "B-7: Public data ecosystem": "G-1",
+          "B-8: CAV readiness": "G-6",
+          "B-9: Environmental monitoring": "G-6",
+          "B-10: ORR compliance": "G-5",
+          "B-11: Democratic transparency": "G-1",
+          "Total PV Costs": "£50.40M",
+          "Total PV Benefits": "£38.53M",
+          "Net Present Value (NPV)": "**-£11.87M**",
+          "NPV (pre-OB)": "**+£26.50M**",
+          "Benefit-Cost Ratio (BCR)": "**0.76**",
+          "BCR (pre-OB)": "**1.59**",
+          "Payback Period": "3.0 years",
+          "Payback Period (pre-OB)": "**3.0 years**",
+          "Base case": "--",
+          "Grant funding secured (£15M)": "+£15.0M",
+          "Benefits 10% higher than ROM": "+£3.85M",
+          "Costs 10% lower than ROM": "+£5.04M",
+          "Oracle costs escalate 8%/yr (not 5%)": "+£4.2M",
+          "All favourable": "+£28.09M",
+          "Benefits 10% lower": "-£3.85M",
+          "Costs 10% higher": "-£5.04M",
+          "All adverse": "-£8.89M",
+          "Cloud Platform (Azure)": "G-Cloud Framework",
+          "Data Engineering Services": "Digital Outcomes & Specialists (DOS)",
+          "Systems Integration": "Competitive Tender",
+          "Training & Certification": "Direct Award",
+          "Security Assurance": "NCSC CHECK partner",
+          "Data Residency": "Azure UK South and UK West regions only (ADR-001)",
+          "Data Sovereignty": "All data remains within UK jurisdiction at all times",
+          "OFFICIAL-SENSITIVE": "Hosting accredited for OFFICIAL-SENSITIVE classification",
+          "Security Clearance": "Microsoft support staff with SC clearance for sensitive workloads",
+          "Exit Strategy": "Contractual data portability and cloud exit provisions (R-007 mitigation)",
+          "Reserved Instances": "3-year reserved instance commitment for cost optimisation",
+          "FinOps Controls": "Monthly spend reporting, budget alerts, and cost anomaly detection",
+          "Vendor lock-in (Azure)": "ADR-001 includes cloud exit strategy; containerised workloads where possible; R-007 monitoring",
+          "SI performance": "Performance-linked payment milestones; right to terminate for persistent underperformance",
+          "Skills market": "Azure/Databricks specialists in high demand; early procurement to secure capacity",
+          "Price volatility": "Reserved instances lock in pricing; annual price review mechanism",
+          "IP ownership": "Government retains all IP for bespoke development; standard terms for COTS/SaaS",
+          "Architecture & Design": "Internal (National Highways Enterprise Architects) + SI advisory",
+          "Platform Engineering": "Systems Integrator",
+          "Data Domain Products": "Internal domain teams (with SI support)",
+          "Training": "External providers (Microsoft, Databricks)",
+          "Operations (steady state)": "Internal (post-training)",
+          "COVID-19 Recovery": "Support UK tech employment through domestic delivery teams",
+          "Tackling Economic Inequality": "Apprenticeship and graduate intake within SI contract",
+          "Fighting Climate Change": "Cloud migration reduces on-premises data centre energy consumption",
+          "Equal Opportunity": "Diversity requirements in SI team composition",
+          "Wellbeing": "Mental health support and flexible working provisions",
+          "Capital (CDEL)": "|",
+          "CDEL Subtotal": "**£13.8M**",
+          "Resource (RDEL)": "|",
+          "RDEL Subtotal": "**£10.4M**",
+          "Total (excl. OB)": "**£24.2M**",
+          "Total (excl. contingency)": "**£22.0M**",
+          "3-Year Total": "**£32.0M**",
+          "Net additional vs Option 0": "**Baseline**",
+          "DfT Settlement (RIS3 / interim)": "£45M",
+          "EPSRC Digital Roads Prosperity Partnership": "£2-3M (in-kind + research)",
+          "CAM Pathfinder Programme": "£1-2M",
+          "UK Geospatial Strategy": "£0.5-1M",
+          "Total Addressable Grants": "**£13-23M**",
+          "Conservative": "£45M",
+          "Central": "£45M",
+          "Optimistic": "£45M",
+          "Total Savings": "**£0.8M**",
+          "OB Adjusted (-25%)": "**£0.6M**",
+          "Total Investment": "£45M",
+          "5-Year Gross Benefits": "£49.4M",
+          "5-Year Net Benefits": "£4.4M",
+          "Annual Savings (steady state)": "£15.5M/yr",
+          "Simple ROI": "33%",
+          "Executive Sponsor": "DfT Permanent Secretary",
+          "Chief Information Security Officer": "CISO, National Highways",
+          "Data Protection Officer": "DPO, National Highways",
+          "Enterprise Architect": "Lead Enterprise Architect",
+          "ORR Liaison": "Head of Regulatory Compliance",
+          "Discovery": "Months 1-3",
+          "Alpha": "Months 4-8",
+          "Beta (Private)": "Months 9-14",
+          "Beta (Public)": "Months 15-20",
+          "Live": "Months 21-24",
+          "M1: Programme Mobilisation": "Month 1",
+          "M2: Discovery Complete": "Month 3",
+          "M3: Alpha Assessment Pass": "Month 8",
+          "M4: Open Data API (Phase 1)": "Month 12",
+          "M5: 3 Domain Products": "Month 14",
+          "M6: OFFICIAL-SENSITIVE Live": "Month 18",
+          "M7: 5 Domain Products": "Month 20",
+          "M8: Oracle Decommission": "Month 22",
+          "M9: Programme Closure": "Month 24",
+          "CRITICAL": "1 (was 2)",
+          "HIGH": "5",
+          "MEDIUM": "11",
+          "LOW": "3",
+          "Public Safety": "ZERO tolerance",
+          "Data Protection": "VERY LOW",
+          "Financial": "LOW",
+          "Delivery": "MODERATE",
+          "Reputation": "LOW",
+          "IPA Gateway Reviews": "At key gates",
+          "GDS Service Assessments": "Alpha, Beta, Live",
+          "NAO Value for Money": "Annual",
+          "Internal Audit": "Quarterly",
+          "NCSC Security Review": "At security gates",
+          "ICO DPIA Review": "Once (Discovery)",
+          "ORR Performance Review": "Quarterly",
+          "Architecture Conformance": "Monthly",
+          "Gateway 0": "Strategic Assessment",
+          "Gateway 1": "Business Justification",
+          "Gateway 2": "Delivery Strategy",
+          "Gateway 3": "Investment Decision",
+          "Gateway 4": "Readiness for Service",
+          "Gateway 5": "Operations Review",
+          "Data Ownership": "Central IT-managed databases",
+          "Skills": "Oracle/on-premises expertise",
+          "Processes": "Batch processing workflows",
+          "Culture": "Data as IT asset",
+          "Governance": "Centralised data governance",
+          "SOBC Approval": "DfT Investment Committee",
+          "Budget Confirmation": "CFO / DfT",
+          "Proceed to OBC": "SRO (CDTO)",
+          "Grant Applications": "Programme Director",
+          "DPIA Submission": "DPO",
+          "SI Procurement": "CFO / Procurement",
+          "ADR": "Architecture Decision Record -- documented architecture decision with options analysis",
+          "ANPR": "Automatic Number Plate Recognition -- personal data under UK GDPR",
+          "BCR": "Benefit-Cost Ratio -- ratio of present value benefits to present value costs",
+          "CAV": "Connected and Autonomous Vehicles",
+          "CDEL": "Capital Departmental Expenditure Limit",
+          "CCS": "Crown Commercial Service -- central procurement body",
+          "CNI": "Critical National Infrastructure",
+          "DfT": "Department for Transport",
+          "DOS": "Digital Outcomes and Specialists -- CCS procurement framework",
+          "DPIA": "Data Protection Impact Assessment -- UK GDPR Article 35",
+          "DSIT": "Department for Science, Innovation and Technology",
+          "FBC": "Full Business Case",
+          "FTS": "Find a Tender Service -- UK public procurement portal",
+          "GDS": "Government Digital Service -- part of Cabinet Office",
+          "GovCo": "Government-Owned Company",
+          "IPA": "Infrastructure and Projects Authority",
+          "NAO": "National Audit Office",
+          "NCSC": "National Cyber Security Centre -- part of GCHQ",
+          "NPV": "Net Present Value -- discounted cash flow analysis",
+          "OB": "Optimism Bias -- HM Treasury adjustment for systematic overoptimism",
+          "OBC": "Outline Business Case",
+          "ORR": "Office of Rail and Road -- statutory monitor for National Highways",
+          "PaaS": "Platform as a Service",
+          "RDEL": "Resource Departmental Expenditure Limit",
+          "RIS3": "Road Investment Strategy 3 (2026-2031)",
+          "ROM": "Rough Order of Magnitude -- early-stage cost estimate",
+          "SLA": "Service Level Agreement",
+          "SOBC": "Strategic Outline Business Case (this document)",
+          "SRN": "Strategic Road Network -- 4,500 miles of motorways and major A-roads",
+          "SRO": "Senior Responsible Owner",
+          "V2X": "Vehicle-to-Everything communication",
+          "Business Requirements (BR)": "10",
+          "Functional Requirements (FR)": "12",
+          "Non-Functional Requirements (NFR)": "18",
+          "Integration Requirements (INT)": "7",
+          "Data Requirements (DR)": "7",
+          "Compliance Requirements (COMP)": "6"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-003",
+          "FR-001",
+          "FR-005",
+          "NFR-P-001",
+          "NFR-SEC-001",
+          "INT-001",
+          "INT-003",
+          "DR-001",
+          "DR-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 224
+        }
       },
       "ARC-001-STKE-v1.0": {
         "type": "STKE",
@@ -1036,7 +3357,35 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-STKE-v1.1",
+          "Document Type": "Stakeholder Drivers & Goals Analysis",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-26",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Board, Steering Committee, Data Domain Owners"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-TCOP-v1.0": {
         "type": "TCOP",
@@ -1046,7 +3395,97 @@
         "status": "APPROVED",
         "severity": "HIGH",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Enterprise Architecture Team",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-TCOP-v1.1",
+          "Document Type": "Technology Code of Practice Assessment",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "APPROVED",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-26",
+          "Owner": "Enterprise Architecture Team",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Review Board, Digital Spend Control",
+          "G-Cloud Framework": "£28M",
+          "Build In-House": "£12M",
+          "DOS Outcomes": "£5M",
+          "Genesis (0.0-0.25)": "BUILD",
+          "Custom (0.25-0.50)": "BUILD",
+          "Product (0.50-0.75)": "BUY",
+          "Commodity (0.75-1.0)": "BUY",
+          "TOTAL": "**PARTIAL COMPLIANCE**",
+          "Current (v1.0)": "98/130",
+          "After SOBC + Threat Model": "108/130",
+          "After IaC + AI Playbook": "115/130",
+          "After All Medium Priority": "120/130",
+          "C2": "CRITICAL",
+          "H2": "HIGH",
+          "H5": "HIGH",
+          "H6": "HIGH",
+          "M9": "MEDIUM",
+          "M10": "MEDIUM",
+          "M12": "MEDIUM",
+          "M13": "MEDIUM",
+          "Enterprise Architect": "[TBD]",
+          "Security Architect": "[TBD]",
+          "Data Protection Officer": "[TBD]",
+          "Senior Responsible Owner": "[TBD]"
+        },
+        "reqIds": [
+          "NFR-C-002",
+          "NFR-P-001",
+          "NFR-P-002",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "INT-005",
+          "NFR-SEC-003",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-004",
+          "NFR-MON-003",
+          "NFR-SEC-009",
+          "NFR-SEC-010",
+          "NFR-SEC-011",
+          "NFR-SEC-012",
+          "DR-003",
+          "DR-001",
+          "DR-002",
+          "DR-004",
+          "DR-005",
+          "DR-006",
+          "INT-006",
+          "NFR-I-001",
+          "BR-009",
+          "BR-010",
+          "BR-006",
+          "NFR-A-001",
+          "NFR-A-002",
+          "BR-011",
+          "NFR-MON-004",
+          "NFR-SUST-001",
+          "NFR-SUST-002",
+          "NFR-SUST-003",
+          "NFR-INF-001",
+          "BR-001"
+        ],
+        "health": {
+          "stale": true,
+          "draft": false,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-ADR-001-v1.0": {
         "type": "ADR",
@@ -1056,7 +3495,67 @@
         "status": "PROPOSED",
         "severity": "MEDIUM",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06"
+        "lastModified": "2026-04-06",
+        "version": "1.0",
+        "owner": "Enterprise Architect, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "decisions",
+        "controlFields": {
+          "Document ID": "ARC-001-ADR-001-v1.0",
+          "Document Type": "Architecture Decision Record (MADR v4.0)",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "PROPOSED",
+          "Version": "1.0",
+          "ADR Number": "ADR-001",
+          "Escalation Level": "Department",
+          "Governance Forum": "Architecture Review Board",
+          "Created Date": "2026-04-06",
+          "Last Modified": "2026-04-06",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-05-06",
+          "Owner": "Enterprise Architect, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Architecture Review Board, Programme Board, Executive Sponsors",
+          "Decider": "Chief Financial Officer (CFO)",
+          "Consulted": "Crown Commercial Service",
+          "Informed": "Transport Minister",
+          "SD-4": "CISO requires NCSC-compliant platform for OFFICIAL-SENSITIVE data",
+          "SD-5": "CFO requires value for money",
+          "SD-1": "CDTO requires modern data platform",
+          "SD-2": "Minister requires rapid visible delivery",
+          "SD-3": "COO requires operational continuity",
+          "Total": "**£10.0M**",
+          "Infrastructure": "|",
+          "Infrastructure Subtotal": "**£4.9M**",
+          "Services": "|",
+          "Services Subtotal": "**£1.8M**",
+          "Migration": "|",
+          "Migration Subtotal": "**£2.0M**",
+          "Grand Total": "**£7.7M**",
+          "Total PASS": "| **0/11**"
+        },
+        "reqIds": [
+          "NFR-C-005",
+          "NFR-C-002",
+          "NFR-SEC-001",
+          "BR-001",
+          "BR-002",
+          "BR-004",
+          "BR-005",
+          "NFR-SEC-002",
+          "NFR-A-001",
+          "NFR-S-001",
+          "NFR-S-002"
+        ],
+        "health": {
+          "stale": true,
+          "draft": false,
+          "orphan": false,
+          "ageDays": 225
+        }
       },
       "ARC-001-ADR-002-v1.0": {
         "type": "ADR",
@@ -1066,7 +3565,116 @@
         "status": "Proposed",
         "severity": "MEDIUM",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06"
+        "lastModified": "2026-04-06",
+        "version": "1.0",
+        "owner": "Enterprise Architect, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "decisions",
+        "controlFields": {
+          "Document ID": "ARC-001-ADR-002-v1.0",
+          "Document Type": "Architecture Decision Record (MADR v4.0)",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "Proposed",
+          "Version": "1.0",
+          "Created Date": "2026-04-06",
+          "Last Modified": "2026-04-06",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-05-06",
+          "Owner": "Enterprise Architect, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Architecture Review Board, Programme Board, Data Domain Owners",
+          "ADR Number": "ADR-002",
+          "Title": "Adopt Data Mesh Architecture with Federated Governance",
+          "Escalation Level": "Department",
+          "Governance Forum": "Architecture Review Board",
+          "Date Proposed": "2026-04-06",
+          "Date Decided": "PENDING",
+          "Decision Makers": "CDTO (Executive Sponsor), Programme Director",
+          "Related ADRs": "ADR-001 (Cloud Platform Selection), ADR-003 (Streaming Platform)",
+          "FR-006": "Domain-driven data products with APIs, SLAs, quality metrics",
+          "DR-005": "Data mesh domain data products",
+          "BR-001": "Real-time journey planning",
+          "BR-003": "Open Data API",
+          "BR-007": "Staff upskilling programme",
+          "BR-010": "Asset intelligence",
+          "NFR-P-002": "Sensor-to-API latency < 2 seconds",
+          "NFR-O-001": "99.95% availability",
+          "#8": "Data Mesh Architecture",
+          "#9": "Single Source of Truth per Domain",
+          "#10": "Data Quality as First-Class Requirement",
+          "#13": "Event-Driven Architecture",
+          "#14": "API-First Design",
+          "#15": "Loose Coupling for Independent Evolution",
+          "#24": "Asset Intelligence",
+          "R-012": "Operational disruption during migration",
+          "R-005": "Cloud cost overruns (£28M to £39M risk)",
+          "R-008": "Legacy migration data loss",
+          "R-001": "Ministerial patience exhausted",
+          "SD-3": "CDTO (Executive Sponsor)",
+          "SD-6": "COO",
+          "SD-1": "Transport Minister",
+          "SD-5": "CFO",
+          "SD-10": "HM Treasury",
+          "SD-9": "GDS",
+          "Option 1": "Do Nothing (Baseline)",
+          "Option 2": "Centralised Data Warehouse / Data Lakehouse",
+          "Option 3": "Data Mesh with Federated Governance",
+          "Option 4": "Hybrid Centralised + Federated",
+          "Total": "**£9.5M**",
+          "Weighted Score": "**100%**",
+          "Rank": "| 4th",
+          "Principles Supported": "**0 / 7**",
+          "Principles Conflicted": "**7 / 7**",
+          "Requirements Fully Met": "**0 / 8**",
+          "Points Positively Impacted": "**0 / 14**",
+          "Option 1: Do Nothing": "£8.0M",
+          "Option 2: Centralised": "£9.0M",
+          "Option 4: Hybrid": "£9.5M",
+          "Phase 0: Foundation": "Months 1-4",
+          "Phase 1: Low Risk": "Months 3-8",
+          "Phase 2: Medium Risk": "Months 6-14",
+          "Phase 3: High Risk": "Months 10-18",
+          "Phase 4: Extension": "Months 14-24",
+          "Domain Ownership": "Each domain team (3-5 engineers + domain expert) owns data product lifecycle",
+          "Data as a Product": "Published APIs with SLAs, quality metrics, schema documentation per domain",
+          "Self-Serve Platform": "Central platform: API gateway, data catalog, event streaming, CI/CD templates, security scanning",
+          "Federated Governance": "Governance council defines standards; platform enforces automatically",
+          "Depends on": "ADR-001",
+          "Depended on by": "ADR-006",
+          "GDS Service Standard": "Positive — all 14 points positively impacted",
+          "Technology Code of Practice": "Positive — aligns with points on open standards, cloud-first, and shared platforms",
+          "NCSC Secure by Design": "Neutral to positive — security scanning in platform layer",
+          "UK GDPR / DPA 2018": "Consideration — domain ownership requires clear data controller/processor designations",
+          "HM Treasury Orange Book": "Aligned — phased migration reduces inherent risk",
+          "HM Treasury Green Book": "Aligned — TCO analysis demonstrates value for money over 3 years",
+          "Chair": "Governance council leadership, escalation authority",
+          "Domain Representatives": "Domain-specific standards and quality advocacy",
+          "Platform Representative": "Platform capability and enforcement updates",
+          "Security Representative": "Data classification and access policy",
+          "Data Protection Representative": "UK GDPR compliance and DPIA oversight",
+          "Option 3: Data Mesh": "£11.3M"
+        },
+        "reqIds": [
+          "FR-006",
+          "DR-005",
+          "BR-001",
+          "BR-003",
+          "BR-007",
+          "BR-010",
+          "NFR-P-002",
+          "NFR-O-001",
+          "BR-006",
+          "BR-002"
+        ],
+        "health": {
+          "stale": true,
+          "draft": false,
+          "orphan": false,
+          "ageDays": 225
+        }
       },
       "ARC-001-ADR-003-v1.0": {
         "type": "ADR",
@@ -1076,7 +3684,222 @@
         "status": "PROPOSED",
         "severity": "MEDIUM",
         "createdDate": "2026-04-06",
-        "lastModified": "2026-04-06"
+        "lastModified": "2026-04-06",
+        "version": "1.0",
+        "owner": "Enterprise Architect, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "decisions",
+        "controlFields": {
+          "Document ID": "ARC-001-ADR-003-v1.0",
+          "Document Type": "Architecture Decision Record (MADR v4.0)",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "PROPOSED",
+          "Version": "1.0",
+          "Created Date": "2026-04-06",
+          "Last Modified": "2026-04-06",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-05-06",
+          "Owner": "Enterprise Architect, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Architecture Review Board, Programme Board, Data Domain Owners, Infrastructure Teams",
+          "Escalation Level": "Department",
+          "Governance Forum": "Architecture Review Board",
+          "Data Freshness": "15-minute batch delays",
+          "Processing Model": "Batch ETL on Oracle databases",
+          "Sensor Capacity": "10,000 (limited)",
+          "Daily Throughput": "5TB",
+          "Event Architecture": "Point-to-point integrations",
+          "Domain Communication": "Direct database queries",
+          "API Data Feeds": "No real-time API capability",
+          "Incident Alerting": "Manual telephone notification",
+          "Schema Management": "None (ad hoc)",
+          "Disaster Recovery": "Manual failover (hours)",
+          "FR-001": "Real-time traffic data ingestion",
+          "NFR-P-001": "API response latency < 500ms p95",
+          "NFR-P-002": "Data ingestion throughput 5TB/day",
+          "NFR-S-001": "Horizontal scaling for 10x load",
+          "NFR-S-003": "Sensor expansion to 50,000",
+          "BR-001": "Real-time journey planning",
+          "BR-003": "Open Data API in 12 months",
+          "BR-008": "CAV data readiness",
+          "INT-001": "Emergency services CAD integration",
+          "INT-002": "Navigation app feeds (1-2 min)",
+          "Real-Time First Architecture": "#1",
+          "Scalability": "#2",
+          "Resilience": "#3",
+          "Event-Driven Architecture": "#13",
+          "API-First Design": "#14",
+          "Connected Roads & CAV Data Readiness": "#23",
+          "R-012": "Operational disruption during legacy-to-streaming cutover",
+          "R-003": "Vendor lock-in limiting future flexibility",
+          "R-008": "Skills shortage for new technology adoption",
+          "R-015": "Data loss during ingestion under peak load",
+          "Annual Total": "**£975K**",
+          "Ingestion Latency": "15 minutes (batch)",
+          "End-to-End Latency": "15 minutes",
+          "Incident Alert Latency": "< 10 seconds",
+          "Sustained Throughput": "~2TB/day (batch)",
+          "Peak Throughput (20TB/day)": "Not achievable",
+          "Concurrent Consumers": "Limited by Oracle",
+          "Message Ordering": "N/A (batch)",
+          "Delivery Guarantee": "Batch (all or nothing)",
+          "Infrastructure Management": "Existing (Oracle DBA)",
+          "Patching & Upgrades": "Oracle patches",
+          "Scaling Operations": "Oracle vertical scale",
+          "Monitoring Setup": "Existing Oracle EM",
+          "Security Configuration": "Oracle RBAC",
+          "Specialist Skills Required": "Oracle DBA",
+          "FTE Overhead": "2 Oracle DBAs (existing)",
+          "Time to Production": "< 6 weeks",
+          "Platform/Licensing": "£8M/yr Oracle",
+          "Operations Staff": "£0 (existing)",
+          "Stream Processing": "N/A",
+          "Storage": "Included in Oracle",
+          "Monitoring": "Existing",
+          "Implementation": "£0",
+          "Consultancy": "£0",
+          "3-Year Total": "£24M+",
+          "Annual Run Rate (Year 3)": "£8M+",
+          "Cost Rank": "4th (highest)",
+          "#1 Real-Time First": "FAIL (15-min delay)",
+          "#2 Scalability": "FAIL (Oracle limits)",
+          "#3 Resilience": "FAIL (manual DR)",
+          "#13 Event-Driven": "FAIL (batch)",
+          "#14 API-First": "FAIL (no API feeds)",
+          "#23 CAV Readiness": "FAIL (no path)",
+          "Alignment Score": "0/6",
+          "Vendor Lock-in": "HIGH (Oracle)",
+          "Delivery Risk": "HIGH (cannot deliver)",
+          "Operational Risk": "LOW (existing)",
+          "Scalability Risk": "HIGH (Oracle limits)",
+          "Skills Risk": "LOW (existing team)",
+          "Cost Risk": "HIGH (£8M/yr Oracle)",
+          "DR/HA Risk": "HIGH (manual failover)",
+          "Overall Risk Rating": "**CRITICAL**",
+          "Meets Latency Requirements": "25%",
+          "Operational Simplicity": "20%",
+          "Time to Value": "15%",
+          "Scalability (50K sensors)": "15%",
+          "Total Cost of Ownership": "10%",
+          "Vendor Independence": "10%",
+          "Ecosystem & Extensibility": "5%",
+          "Weighted Total": "**100%**",
+          "Rank": "|",
+          "Option 1: Do Nothing": "Fundamentally incompatible with 9 of 10 decision-driving requirements. 15-minute batch delays cannot meet real-time journey planning (BR-001), public API (BR-003), or event-driven architecture (Principle #13). Included as baseline per Green Book methodology only.",
+          "Option 3: Self-Managed Kafka": "Rejected due to significant operational overhead (3-4 Kafka SRE FTE), 3-4 month time-to-production (risks BR-003 12-month API delivery), manual DR configuration (unacceptable for CNI), and £800K higher 3-year TCO. Superior raw performance (< 10ms latency) is unnecessary when < 2 second is the requirement.",
+          "Option 4: Managed Kafka": "Strong contender but rejected due to 15-20% higher cost than native cloud streaming, dual vendor dependency (Confluent + Azure), less native Azure integration (separate monitoring, identity), and the Kafka wire protocol portability advantage provides limited practical value given ADR-001's Azure commitment.",
+          "Kafka ecosystem compatibility limitations": "Some Kafka Connect connectors may not work with Event Hubs Kafka endpoint",
+          "Phase 1: Foundation": "Months 1-2",
+          "Phase 2: Shadow Mode": "Months 3-4",
+          "Phase 3: Stream Processing": "Months 5-6",
+          "Phase 4: Consumer Migration": "Months 7-8",
+          "Phase 5: Cutover": "Month 9",
+          "Phase 6: Optimization": "Months 10-12",
+          "Sensors": "10,000",
+          "Events/second": "50,000",
+          "Peak Throughput (incident)": "10TB",
+          "Event Size (avg)": "1KB",
+          "Retention": "7 days hot / 90 days warm",
+          "Partitions (total)": "160",
+          "Consumer Groups": "20",
+          "Encryption at rest": "Azure Storage Service Encryption (AES-256) with customer-managed keys in Azure Key Vault",
+          "Encryption in transit": "TLS 1.3 enforced for all producer and consumer connections",
+          "Identity & Access": "Azure Active Directory with managed identities for service-to-service authentication",
+          "Access Control": "RBAC per Event Hub namespace; domain teams have access only to their namespace",
+          "Private Endpoints": "Azure Private Link for Event Hubs; no public internet exposure for producer/consumer connections",
+          "Audit Logging": "Azure Monitor diagnostic logs for all producer, consumer, and management operations",
+          "Data Classification": "OFFICIAL-SENSITIVE events (ANPR, CCTV metadata) isolated to separate Event Hub with enhanced access controls",
+          "Key Rotation": "Automated 90-day key rotation via Azure Key Vault; SAS token rotation for legacy producers",
+          "Network Isolation": "Event Hubs deployed in private subnet with NSG rules; IP filtering for sensor gateway ingress",
+          "CDTO (Executive Sponsor)": "Decider",
+          "Enterprise Architects": "Decider",
+          "Programme Director": "Accountable",
+          "Data Engineers (SD-15)": "Consulted",
+          "Traffic Domain Owner": "Consulted",
+          "Infrastructure Team": "Consulted",
+          "CISO (SD-4)": "Consulted",
+          "Regional Control Room Managers (SD-7)": "Informed",
+          "COO (SD-6)": "Informed",
+          "CFO (SD-5)": "Informed",
+          "NCSC Secure by Design": "ALIGNED",
+          "NCSC Cloud Security Principles": "ALIGNED",
+          "UK GDPR": "ALIGNED",
+          "HM Treasury Orange Book": "ALIGNED",
+          "#1": "Real-Time First Architecture",
+          "#2": "Scalability",
+          "#3": "Resilience",
+          "#13": "Event-Driven Architecture",
+          "#14": "API-First Design",
+          "#23": "Connected Roads & CAV Data Readiness",
+          "Depends on": "ADR-002 (Data Mesh Architecture)",
+          "Depended on by": "Future ADR: CAV/V2X Protocol",
+          "Decision Review": "Monthly (first 6 months), then quarterly",
+          "Performance Review": "Weekly (first 3 months), then monthly",
+          "Cost Review": "Monthly",
+          "Security Review": "Quarterly",
+          "Capacity Review": "Quarterly",
+          "Ingestion Latency (p95)": "< 2 seconds end-to-end",
+          "Platform Availability": "> 99.95%",
+          "Throughput Capacity": "> 5TB/day sustained",
+          "Message Loss Rate": "0%",
+          "Schema Compatibility": "100% backward compatible",
+          "Cost vs Budget": "Within +/- 10% of estimate",
+          "Consumer Migration": "100% by Month 9",
+          "AMQP": "Advanced Message Queuing Protocol -- open standard messaging protocol used by Azure Event Hubs",
+          "Avro": "Apache Avro -- compact binary serialization format with schema evolution support",
+          "CAD": "Computer Aided Dispatch -- emergency services call handling and dispatch system",
+          "CAV": "Connected and Autonomous Vehicles -- vehicles with connectivity and self-driving capabilities",
+          "CEP": "Complex Event Processing -- real-time pattern detection across multiple event streams",
+          "CKU": "Confluent Kafka Unit -- Confluent Cloud capacity unit for managed Kafka",
+          "CNI": "Critical National Infrastructure -- assets essential for functioning of society",
+          "DR": "Disaster Recovery -- process of restoring systems after a major failure",
+          "ETL": "Extract, Transform, Load -- batch data processing pattern",
+          "Event Hubs": "Azure Event Hubs -- Microsoft's fully managed event streaming service",
+          "Geo-replication": "Automatic data replication between geographic regions for disaster recovery",
+          "IoT": "Internet of Things -- network of connected sensors and devices",
+          "ISR": "In-Sync Replica -- Kafka term for replicas that are fully caught up with the leader",
+          "Kafka": "Apache Kafka -- open source distributed event streaming platform",
+          "ksqlDB": "Confluent's streaming SQL engine for real-time data processing on Kafka",
+          "MirrorMaker 2": "Apache Kafka tool for cross-cluster and cross-region data replication",
+          "MTTR": "Mean Time To Recovery -- average time to restore service after a failure",
+          "Schema Registry": "Service that manages and enforces schemas for event data contracts",
+          "SRE": "Site Reliability Engineering -- discipline focused on system reliability and operations",
+          "TLS": "Transport Layer Security -- cryptographic protocol for secure communication",
+          "TCO": "Total Cost of Ownership -- complete cost of a solution over its lifecycle",
+          "TU": "Throughput Unit -- Azure Event Hubs capacity unit (1 TU = 1MB/s ingress, 2MB/s egress)",
+          "V2X": "Vehicle-to-Everything -- communication between vehicles and infrastructure, other vehicles, pedestrians",
+          "WGS84": "World Geodetic System 1984 -- standard coordinate reference system for GPS",
+          "ZooKeeper": "Apache ZooKeeper -- coordination service historically required by Kafka (being replaced by KRaft)",
+          "Created": "2026-04-06",
+          "Review Date": "2026-05-06"
+        },
+        "reqIds": [
+          "BR-003",
+          "FR-001",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-S-001",
+          "BR-001",
+          "INT-001",
+          "INT-002",
+          "NFR-S-003",
+          "BR-008",
+          "NFR-HA-001",
+          "BR-004",
+          "NFR-SEC-002",
+          "NFR-SEC-001",
+          "NFR-SEC-005",
+          "NFR-SEC-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": false,
+          "orphan": false,
+          "ageDays": 225
+        }
       },
       "ARC-001-WARD-001-v1.0": {
         "type": "WARD",
@@ -1086,7 +3909,96 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2025-11-13",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Chief Data & Technology Officer, National Highways",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WARD-v1.1",
+          "Document Type": "Wardley Map",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.1",
+          "Created Date": "2025-11-13",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-26",
+          "Owner": "Chief Data & Technology Officer, National Highways",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Review Board, Procurement Team",
+          "TOTAL BUILD INVESTMENT": "| **Competitive advantage, domain-specific**",
+          "TOTAL BUY INVESTMENT": "|",
+          "TOTAL SAAS/CLOUD": "| Microsoft Azure (G-Cloud)",
+          "TOTAL G-CLOUD PROCUREMENT": "|",
+          "1. User Needs": "Driver Journey Planning, Third-Party Navigation Apps, Regional Control Room Operations",
+          "2. Accessibility": "GOV.UK Design System for API developer portal",
+          "3. Open Source": "Schema Registry (Confluent open source), PostgreSQL + PostGIS",
+          "5. Cloud First": "Cloud Hosting Azure UK, Managed Databases, Object Storage",
+          "6. Security": "GDPR Anonymization Engine, Secret Management, API Authentication OAuth2",
+          "7. Privacy": "GDPR Anonymization Engine (24h ANPR deletion), CCTV retention (31 days)",
+          "8. Share/Reuse": "Public Open Data Access (Open Government License), GOV.UK Notify",
+          "11. Purchasing": "G-Cloud procurement (£25M), DOS Outcomes (£5M)",
+          "Single vendor dependency (Azure lock-in)": "Cloud Hosting Azure UK, all managed services (15 components)",
+          "Genesis component failure (AI accuracy <85%)": "Incident Detection AI",
+          "Rapid commoditization (Event Streaming)": "Event Streaming Platform (0.72 → 0.88 predicted)",
+          "Skills gap (Data Mesh architects)": "Data Mesh Implementation, all 5 domain data products",
+          "Regulatory change (UK GDPR tightening)": "GDPR Anonymization Engine, ANPR Journey Time Calculation",
+          "Legacy migration failure (Oracle 500TB)": "Legacy Oracle Migration, all data products depend on migrated data",
+          "Real-time performance miss (<2 sec latency)": "Real-Time Event Processing, Real-Time Journey Time API",
+          "Open Data Ecosystem": "Public Open Data Access, Third-Party Navigation Apps",
+          "Local Authority Data Exchange": "152 councils reuse NH traffic data, avoid duplicate sensor deployment",
+          "Emergency Services Integration": "Emergency Services Response, Incident Management Workflow",
+          "ANPR Privacy Differentiation": "ANPR Journey Time Calculation, GDPR Anonymization Engine",
+          "Data Mesh Replication": "Data Mesh Implementation pattern reusable across government",
+          "BR-001: Real-Time Journey Planning": "Driver Journey Planning (0.22), Real-Time Journey Time API (0.38), ANPR Journey Time Calculation (0.35)",
+          "BR-002: £15M Cost Savings": "Legacy Oracle Migration (0.42 → 0.92), Cloud Hosting Azure UK (0.95), Managed Database Services (0.92)",
+          "BR-003: Open Data API": "Public Open Data Access (0.75), API Management Gateway (0.68), Third-Party Navigation Apps (0.68)",
+          "BR-004: Operational Continuity": "Regional Control Room Operations (0.35), Incident Management Workflow (0.42), CCTV Monitoring (0.45)",
+          "BR-005: UK GDPR Compliance": "GDPR Anonymization Engine (0.38), ANPR Journey Time Calculation (0.35), Secret Management Azure KeyVault (0.90)",
+          "FR-001: Real-Time Data Ingestion": "Real-Time Event Processing (0.45), Event Streaming Platform (0.72), Cloud Hosting Azure UK (0.95)",
+          "FR-002: Public Journey API": "Real-Time Journey Time API (0.38), API Management Gateway (0.68), CDN Edge Caching (0.92)",
+          "FR-006: Data Mesh Products": "Data Mesh Implementation (0.38), Traffic/Incidents/Roadworks/Assets/Weather Domain Data Products (0.42-0.58)",
+          "NFR-P-001: <500ms p95 Latency": "Real-Time Journey Time API (0.38), CDN Edge Caching (0.92), Time-Series Database (0.75)",
+          "NFR-SEC-001: Zero-Trust": "API Authentication OAuth2 (0.68), Secret Management Azure KeyVault (0.90), GDPR Anonymization Engine (0.38)",
+          "NFR-A-001: 99.95% Availability": "Cloud Hosting Azure UK (0.95), Managed Database Services (0.92), Monitoring Observability Platform (0.72)",
+          "INT-004: Met Office Weather": "Weather Domain Data Product (0.58)",
+          "DR-003: ANPR Anonymization": "ANPR Journey Time Calculation (0.35), GDPR Anonymization Engine (0.38)",
+          "#1 Real-Time First": "Real-Time Event Processing (0.45), Real-Time Journey Time API (0.38), Event Streaming Platform (0.72)",
+          "#2 Scalability": "Cloud Hosting Azure UK (0.95), Event Streaming Platform (0.72), Auto-scaling (10x capacity)",
+          "#3 Resilience": "Cloud Hosting Azure UK (0.95 multi-region), Managed Database Services (0.92), RTO <15 min",
+          "#4 Security by Design": "GDPR Anonymization Engine (0.38), Secret Management Azure KeyVault (0.90), API Authentication OAuth2 (0.68)",
+          "#5 Open by Default": "Public Open Data Access (0.75), API Management Gateway (0.68), Open Government License",
+          "#6 Interoperability": "API Management Gateway (0.68), Schema Registry (0.65), DATEX II compliance (Roadworks)",
+          "#7 Observability": "Monitoring Observability Platform (0.72), Structured logging, SLO-based alerting",
+          "#8 Data Mesh": "Data Mesh Implementation (0.38), 5 domain data products, Federated governance",
+          "#11 Data Sovereignty": "Cloud Hosting Azure UK (0.95), Managed Database Services (0.92), UK South + UK West only",
+          "#12 Data Minimization": "GDPR Anonymization Engine (0.38), 24h ANPR deletion, 31-day CCTV retention"
+        },
+        "reqIds": [
+          "BR-001",
+          "FR-001",
+          "NFR-SEC-001",
+          "DR-003",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "FR-002",
+          "FR-006",
+          "NFR-P-001",
+          "NFR-A-001",
+          "INT-004"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-WCLM-001-v1.0": {
         "type": "WCLM",
@@ -1096,7 +4008,48 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-19",
-        "lastModified": "2026-03-19"
+        "lastModified": "2026-03-19",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WCLM-001-v1.0",
+          "Document Type": "Wardley Climate Assessment",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-19",
+          "Last Modified": "2026-03-19",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-04-18",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Team, Executive Sponsors",
+          "Event Streaming Platform": "Product",
+          "Legacy Oracle Migration": "Custom",
+          "Data Mesh Implementation": "Custom",
+          "Incident Detection AI": "Genesis",
+          "Real-Time Event Processing": "Custom",
+          "ANPR Journey Time Calculation": "Custom",
+          "Public Open Data Access": "Product",
+          "Regional Control Room Ops": "Custom",
+          "Cloud Hosting Azure UK": "Commodity"
+        },
+        "reqIds": [
+          "BR-002",
+          "NFR-S-002",
+          "BR-007"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 243
+        }
       },
       "ARC-001-WDOC-v1.0": {
         "type": "WDOC",
@@ -1106,7 +4059,43 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-19",
-        "lastModified": "2026-03-19"
+        "lastModified": "2026-03-19",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WDOC-v1.0",
+          "Document Type": "Wardley Doctrine Assessment",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-19",
+          "Last Modified": "2026-03-19",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-06-17",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Team, Leadership",
+          "Purpose": "Modernize National Highways' data architecture from legacy Oracle to cloud-native data mesh, enabling real-time journey planning for 45 million daily road users on England's 4,300-mile strategic road network. The £45M programme must deliver £15M annual savings, 99.95% availability, and an Open Data API within 12 months.",
+          "Landscape": "The Wardley Map (ARC-001-WARD-001) reveals 35 components: 2 in Genesis (Driver Journey Planning, Incident Detection AI), 12 in Custom (data mesh, ANPR, incident management), 14 in Product (API management, streaming, databases), and 7 in Commodity (Azure cloud infrastructure). Significant inertia exists in legacy Oracle (7 databases, 500TB, 45 Oracle DBAs). The critical path runs through custom-built components that require specialist skills (data mesh architects, privacy engineers).",
+          "Climate": "Intense regulatory pressure: GDS Service Standard, TCoP, NCSC Cloud Security Principles, UK GDPR, ICO oversight. Political pressure for 12-month delivery (ministerial commitment). CNI classification elevates security requirements. £60B asset base creates accountability pressure from Treasury and NAO. Market evolution is rapid in event streaming (commoditizing) and AI/ML (maturing), creating build-vs-buy timing sensitivity.",
+          "Leadership": "CDTO as executive sponsor with weekly programme reviews. Monthly steering committee includes ministerial representation. Decision-making is centralized through approval gates (CISO for security, DPO for privacy, GDS for service standard, Treasury for spending). Risk appetite is low — the DfT Permanent Secretary is personally accountable to Parliament. This creates a tension between the federated data mesh governance model and the centralized oversight culture."
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-007"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 243
+        }
       },
       "ARC-001-WGAM-001-v1.0": {
         "type": "WGAM",
@@ -1116,7 +4105,66 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-19",
-        "lastModified": "2026-03-19"
+        "lastModified": "2026-03-19",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WGAM-001-v1.0",
+          "Document Type": "Wardley Gameplay Analysis",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-19",
+          "Last Modified": "2026-03-19",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-04-18",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Team, Executive Sponsors",
+          "WARD Document ID": "ARC-001-WARD-001-v1.0",
+          "Map Title": "National Highways Data Architecture — Current State & Procurement Strategy",
+          "Map Date": "2026-01-26",
+          "Key Components": "Driver Journey Planning (Genesis, 0.22), Data Mesh Implementation (Custom, 0.38), ANPR Journey Time Calculation (Custom, 0.35), Event Streaming Platform (Product, 0.72 → evolving to 0.88), Cloud Hosting Azure UK (Commodity, 0.95)",
+          "Education": "LG",
+          "Open Approaches": "LG",
+          "Industrial Policy": "N",
+          "Co-operation": "N",
+          "Refactoring": "LG",
+          "Managing Inertia": "N",
+          "Experimentation": "LG",
+          "Tower and Moat": "N",
+          "Open Approaches + Education": "Education grows the developer market that Open Approaches then accelerates. Developers must understand the API value (Education) before open publication drives adoption (Open Approaches).",
+          "Open Approaches + Tower and Moat": "Openness attracts ecosystem participants; ecosystem depth creates the moat. The more third-party apps consume NH data, the more valuable and irreplaceable the platform becomes. Open Approaches is the growth engine; Tower and Moat is the retention engine.",
+          "Open Approaches + Co-operation": "Co-operation with local authorities (DATEX II data exchange) enriches the open data platform with local road coverage. NH strategic + local road data is more valuable than either alone.",
+          "Experimentation + Managing Inertia": "Experiments generate evidence that breaks inertia. A successful AI pilot on M25 J15-J16 overcomes operator scepticism. A successful Traffic Domain data product pilot overcomes data warehouse mindset. Evidence from experimentation is the weapon against change resistance.",
+          "Industrial Policy + Open Approaches": "Government mandates (GDS open data, TCoP share/reuse) provide institutional cover for Open Approaches. The ministerial commitment creates urgency. Industrial policy removes internal blockers that might resist openness.",
+          "Ubuntu": "Open Approaches + Alliances + Market Enablement",
+          "Tesla": "First Mover + Tower and Moat + Education",
+          "AWS": "ILC + Land Grab + Tower and Moat",
+          "Airbnb": "N-sided Markets + Market Enablement + Defensive Regulation"
+        },
+        "reqIds": [
+          "BR-007",
+          "INT-003",
+          "INT-001",
+          "INT-004",
+          "FR-006",
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 243
+        }
       },
       "ARC-001-WVCH-001-v1.0": {
         "type": "WVCH",
@@ -1126,7 +4174,68 @@
         "status": "DRAFT",
         "severity": "MEDIUM",
         "createdDate": "2026-03-19",
-        "lastModified": "2026-03-19"
+        "lastModified": "2026-03-19",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Document ID": "ARC-001-WVCH-001-v1.0",
+          "Document Type": "Wardley Value Chain",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-19",
+          "Last Modified": "2026-03-19",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-04-18",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Team, Executive Sponsors",
+          "C-01": "—",
+          "C-02": "| —",
+          "C-03": "|",
+          "C-04": "| X",
+          "C-05": "|",
+          "C-06": "|",
+          "C-07": "|",
+          "C-08": "|",
+          "C-09": "|",
+          "C-10": "|",
+          "C-11": "|",
+          "C-12": "|",
+          "C-13": "|",
+          "C-14": "|",
+          "C-15": "|",
+          "C-16": "|",
+          "C-17": "|",
+          "C-18": "|",
+          "C-19": "|",
+          "C-20": "|"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-003",
+          "BR-004",
+          "NFR-C-005",
+          "FR-006",
+          "DR-005",
+          "INT-001",
+          "BR-005",
+          "DR-003",
+          "FR-005",
+          "INT-003",
+          "INT-005"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 243
+        }
       },
       "ARC-001-GCSR-v1.0": {
         "type": "GCSR",
@@ -1136,7 +4245,42 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-03-23",
-        "lastModified": "2026-03-23"
+        "lastModified": "2026-03-23",
+        "version": "1.0",
+        "owner": "Data Architecture Lead, National Highways",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-GCSR-v1.0",
+          "Document Type": "Government Code Search Report",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-23",
+          "Last Modified": "2026-03-23",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-06-23",
+          "Owner": "Data Architecture Lead, National Highways",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "National Highways Architecture Team, Data Engineering Team",
+          "Organisation": "Dorset Council",
+          "Repository URL": "https://github.com/Dorset-Council-UK/QGIS.Mosaic.Builder",
+          "Description": "A QGIS plugin for merging geographic features into unified outlines for non-specialist users",
+          "Language": "Python (66.8%), Makefile, QML, Shell",
+          "License": "MIT",
+          "Last Activity": "2026-02-05 (v1.0.5)",
+          "Stars": "0"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 239
+        }
       },
       "ARC-001-GLND-v1.0": {
         "type": "GLND",
@@ -1146,7 +4290,35 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-03-23",
-        "lastModified": "2026-03-23"
+        "lastModified": "2026-03-23",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-GLND-v1.0",
+          "Document Type": "Government Landscape Analysis",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-23",
+          "Last Modified": "2026-03-23",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-06-23",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Team, Architecture Team, Executive Sponsors"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 239
+        }
       },
       "ARC-001-GOVR-v1.0": {
         "type": "GOVR",
@@ -1156,7 +4328,74 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-03-23",
-        "lastModified": "2026-03-23"
+        "lastModified": "2026-03-23",
+        "version": "1.0",
+        "owner": "Data Architecture Lead, National Highways",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-GOVR-v1.0",
+          "Document Type": "Government Reuse Assessment",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-03-23",
+          "Last Modified": "2026-03-23",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-06-23",
+          "Owner": "Data Architecture Lead, National Highways",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "National Highways Architecture Team, Data Engineering Team, GDS Service Assessment Team",
+          "Organisation": "Dorset Council (Dorset-Council-UK)",
+          "Repository URL": "https://github.com/Dorset-Council-UK/FloodOnlineReportingTool.Public",
+          "Language": "C# (81.1%), HTML (17.8%), Other (1.1%)",
+          "License": "MIT License",
+          "Last Activity": "2026-03-23 (pushed today — most recently active repository assessed)",
+          "Stars": "0",
+          "Forks": "0",
+          "Contributors": "5",
+          "Open Issues": "21",
+          "Releases": "No published releases (continuous delivery model — changes pushed directly to main)",
+          "Documentation": "Adequate — docs/ folder with governance files; no explicit deployment guide found. README present but not accessible via raw URL at time of assessment.",
+          "License Compatibility": "5",
+          "Code Quality": "4",
+          "Documentation Quality": "3",
+          "Tech Stack Alignment": "4",
+          "Activity / Maintenance": "5",
+          "Overall": "**4.2**"
+        },
+        "reqIds": [
+          "FR-003",
+          "FR-004",
+          "FR-005",
+          "FR-006",
+          "INT-003",
+          "NFR-SEC-001",
+          "FR-001",
+          "NFR-O-001",
+          "INT-001",
+          "INT-005",
+          "BR-006",
+          "NFR-C-003",
+          "INT-002",
+          "NFR-A-001",
+          "NFR-A-004",
+          "NFR-O-003",
+          "NFR-P-002",
+          "NFR-S-003",
+          "INT-004",
+          "FR-002",
+          "FR-008"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 239
+        }
       },
       "ARC-001-GRNT-001-v1.0": {
         "type": "GRNT",
@@ -1166,7 +4405,47 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-04-07",
-        "lastModified": "2026-04-07"
+        "lastModified": "2026-04-07",
+        "version": "1.0",
+        "owner": "Programme Director, Data Architecture Modernization",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": "research",
+        "controlFields": {
+          "Document ID": "ARC-001-GRNT-001-v1.0",
+          "Document Type": "UK Grants Research",
+          "Project": "National Highways Data Architecture Modernization (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "1.0",
+          "Created Date": "2026-04-07",
+          "Last Modified": "2026-04-07",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-07-07",
+          "Owner": "Programme Director, Data Architecture Modernization",
+          "Reviewed By": "PENDING",
+          "Approved By": "PENDING",
+          "Distribution": "Programme Board, Steering Committee, Finance Team",
+          "Sector": "Transport, Digital Infrastructure, Environment, Critical National Infrastructure",
+          "Organisation Type": "Government-Owned Company (GovCo) -- National Highways is a government-owned company, not an SME. This is a strategic arm's-length body of the Department for Transport.",
+          "TRL Level": "TRL 5-7 (platform design through operational deployment)",
+          "Funding Sought": "Supplementary funding for specific workstreams within the overall £45M programme budget",
+          "Project Timeline": "2025 -- 2029 (phased delivery across GDS phases)",
+          "Key Objectives": "(1) Modernize legacy Oracle databases to cloud-native data mesh on Azure UK regions; (2) Deliver real-time IoT data ingestion from 10,000+ sensors with sub-second query latency; (3) Launch public Open Data API enabling third-party integration; (4) Prepare data platform for connected and autonomous vehicle (CAV) data exchange; (5) Support decarbonisation and environmental monitoring for net zero targets",
+          "Funding Body": "Innovate UK (part of UKRI)",
+          "Programme": "Knowledge Transfer Partnerships -- Management KTP",
+          "Funding Range": "~£8,500/month; 12-36 month projects; up to 50% grant for large/public sector bodies",
+          "Deadline": "2026-2027 Round 1: 1 April 2026",
+          "TRL Requirement": "Not applicable (management/organisational capability)",
+          "Eligibility Score": "**Low**"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 224
+        }
       }
     },
     "edges": [
@@ -1629,6 +4908,199 @@
         "from": "ARC-001-GRNT-001-v1.0",
         "to": "ARC-001-STKE",
         "type": "references"
+      }
+    ]
+  },
+  "projectHealth": {
+    "baseline": "2026-11-17T10:08:30.453Z",
+    "staleThresholdDays": 90,
+    "essentialTypes": [
+      {
+        "type": "REQ",
+        "tier": 1,
+        "command": "/arckit:requirements",
+        "label": "Requirements"
+      },
+      {
+        "type": "STKE",
+        "tier": 1,
+        "command": "/arckit:stakeholders",
+        "label": "Stakeholder Analysis"
+      },
+      {
+        "type": "RISK",
+        "tier": 1,
+        "command": "/arckit:risk",
+        "label": "Risk Register"
+      },
+      {
+        "type": "SOBC",
+        "tier": 2,
+        "command": "/arckit:sobc",
+        "label": "Strategic Outline Business Case"
+      },
+      {
+        "type": "ADR",
+        "tier": 3,
+        "command": "/arckit:adr",
+        "label": "Architecture Decision Record"
+      },
+      {
+        "type": "HLDR",
+        "tier": 3,
+        "command": "/arckit:hld-review",
+        "label": "High-Level Design Review"
+      },
+      {
+        "type": "TRAC",
+        "tier": 4,
+        "command": "/arckit:traceability",
+        "label": "Traceability Matrix"
+      },
+      {
+        "type": "CONF",
+        "tier": 4,
+        "command": "/arckit:conformance",
+        "label": "Conformance Assessment"
+      }
+    ],
+    "highSeverityTypes": [
+      "TCOP",
+      "SECD",
+      "SECD-MOD",
+      "DPIA",
+      "SVCASS",
+      "RISK",
+      "TRAC",
+      "CONF",
+      "PRIN-COMP",
+      "AIPB",
+      "ATRS",
+      "JSP936"
+    ],
+    "projects": [
+      {
+        "project": "001-national-highways-data-architecture-modernization",
+        "projectId": "001",
+        "artifactCount": 23,
+        "edgeCount": 92,
+        "density": 4,
+        "coverage": {
+          "essentialPresent": [
+            "REQ",
+            "STKE",
+            "RISK",
+            "SOBC",
+            "ADR"
+          ],
+          "essentialMissing": [
+            {
+              "type": "HLDR",
+              "command": "/arckit:hld-review",
+              "label": "High-Level Design Review",
+              "tier": 3
+            },
+            {
+              "type": "TRAC",
+              "command": "/arckit:traceability",
+              "label": "Traceability Matrix",
+              "tier": 4
+            },
+            {
+              "type": "CONF",
+              "command": "/arckit:conformance",
+              "label": "Conformance Assessment",
+              "tier": 4
+            }
+          ],
+          "essentialPct": 63,
+          "presentTypes": [
+            "ADR",
+            "ANAL",
+            "DATA",
+            "GCSR",
+            "GLND",
+            "GOVR",
+            "GRNT",
+            "PLAN",
+            "REQ",
+            "RGPD",
+            "RISK",
+            "SECD",
+            "SOBC",
+            "STKE",
+            "TCOP",
+            "WARD",
+            "WCLM",
+            "WDOC",
+            "WGAM",
+            "WVCH"
+          ],
+          "presentByCategory": {
+            "Governance": 2,
+            "Architecture": 7,
+            "Planning": 2,
+            "Discovery": 2,
+            "Compliance": 3,
+            "Research": 4
+          }
+        },
+        "compliance": {
+          "presentHigh": [
+            "TCOP",
+            "SECD",
+            "RISK"
+          ],
+          "missingHigh": [
+            "SECD-MOD",
+            "DPIA",
+            "SVCASS",
+            "TRAC",
+            "CONF",
+            "PRIN-COMP",
+            "AIPB",
+            "ATRS",
+            "JSP936"
+          ],
+          "pct": 25,
+          "total": 12
+        },
+        "health": {
+          "stale": 23,
+          "draft": 19,
+          "orphan": 1
+        },
+        "contextualSuggestions": [
+          {
+            "command": "/arckit:dpia",
+            "type": "DPIA",
+            "trigger": "processing personal data"
+          }
+        ],
+        "hasGlobalPrin": true,
+        "recommendations": [
+          {
+            "command": "/arckit:hld-review",
+            "label": "High-Level Design Review",
+            "type": "HLDR",
+            "tier": 3,
+            "reason": "Tier 3 essential missing"
+          },
+          {
+            "command": "/arckit:traceability",
+            "label": "Traceability Matrix",
+            "type": "TRAC",
+            "tier": 4,
+            "reason": "Tier 4 essential missing"
+          },
+          {
+            "command": "/arckit:conformance",
+            "label": "Conformance Assessment",
+            "type": "CONF",
+            "tier": 4,
+            "reason": "Tier 4 essential missing"
+          }
+        ]
       }
     ]
   }
